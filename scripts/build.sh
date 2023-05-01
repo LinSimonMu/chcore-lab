@@ -8,9 +8,9 @@ if [ ! -d "build" ]; then
 
 basedir=\$(dirname "\$0")
 if [[ \$@ == *"gdb"* ]]; then
-	qemu-system-aarch64 -machine raspi3 -nographic -serial null -serial mon:stdio -m size=1G -kernel \$basedir/kernel.img -S -gdb tcp::1234
+	qemu-system-aarch64 -machine raspi3b -nographic -serial null -serial mon:stdio -m size=1G -kernel \$basedir/kernel.img -S -gdb tcp::1234
 else
-	qemu-system-aarch64 -machine raspi3 -nographic -serial null -serial mon:stdio -m size=1G -kernel \$basedir/kernel.img
+	qemu-system-aarch64 -machine raspi3b -nographic -serial null -serial mon:stdio -m size=1G -kernel \$basedir/kernel.img
 fi
 EOF
     chmod +x simulate.sh
@@ -21,13 +21,13 @@ fi
 echo "compiling kernel ..."
 cd build
 
-cmake -DCMAKE_LINKER=aarch64-linux-gnu-ld -DCMAKE_C_LINK_EXECUTABLE="<CMAKE_LINKER> <LINK_FLAGS> <OBJECTS> -o <TARGET> <LINK_LIBRARIES>" .. -G Ninja "$@"
+cmake -DCMAKE_LINKER=aarch64-none-linux-gnu-ld -DCMAKE_C_LINK_EXECUTABLE="<CMAKE_LINKER> <LINK_FLAGS> <OBJECTS> -o <TARGET> <LINK_LIBRARIES>" .. -G Ninja "$@"
 echo "before ninja"
 ninja
 echo "after ninja"
 if [ ! -f "kernel.img" ]; then
     echo "kernel.img is not exist"
 fi
-aarch64-linux-gnu-nm -n kernel.img > kernel.sym
+aarch64-none-linux-gnu-nm -n kernel.img > kernel.sym
 # print the compile logs
 #ninja -v
