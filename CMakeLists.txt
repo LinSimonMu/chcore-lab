@@ -3,7 +3,7 @@ cmake_minimum_required (VERSION 3.14)
 set(CMAKE_VERBOSE_MAKEFILE on)
 
 set(CMAKE_BUILD_TYPE "Release")  # "Release" or "Debug"
-set(CHCORE_PLAT "raspi3")
+set(CHCORE_PLAT "raspi3b")
 set(CHCORE_ARCH "aarch64")
 
 mark_as_advanced(CMAKE_INSTALL_PREFIX)
@@ -14,7 +14,7 @@ else ()
     add_definitions("-DLOG_LEVEL=1")
 endif ()
 
-set(CROSS_COMPILE "${CHCORE_ARCH}-linux-gnu-")
+set(CROSS_COMPILE "${CHCORE_ARCH}-none-linux-gnu-")
 
 set(CMAKE_C_COMPILER "${CROSS_COMPILE}gcc")
 set(CMAKE_ASM_COMPILER "${CROSS_COMPILE}gcc")
@@ -26,7 +26,7 @@ execute_process (
 
 
 set(CMAKE_C_FLAGS
-    "-Wall -fPIC -nostdlib -nostartfiles -ffreestanding \
+    "-Wall -fPIC -nostdlib -g -O0 -nostartfiles -ffreestanding \
     -DCHCORE -nostdinc ")
 
 project (chos C ASM)

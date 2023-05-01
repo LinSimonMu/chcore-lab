@@ -6,7 +6,7 @@ endif
 LAB := 2
 # try to generate a unique GDB port
 GDBPORT	:= 1234
-QEMUOPTS = -machine raspi3 -serial null -serial mon:stdio -m size=1G -kernel $(BUILD_DIR)/kernel.img -gdb tcp::1234
+QEMUOPTS = -machine raspi3b -serial null -serial mon:stdio -m size=1G -kernel $(BUILD_DIR)/kernel.img -gdb tcp::1234
 IMAGES = $(BUILD_DIR)/kernel.img
 
 all: build
@@ -15,7 +15,7 @@ gdb:
 	gdb-multiarch -n -x .gdbinit
 
 build: FORCE
-	./scripts/docker_build.sh
+	./scripts/build.sh
 
 qemu: $(IMAGES) 
 	$(QEMU) $(QEMUOPTS)
@@ -33,7 +33,7 @@ gdbport:
 docker: FORCE	
 	./scripts/run_docker.sh
 
-grade: build FORCE
+grade: build
 	@echo "make grade"
 	@echo "LAB"$(LAB)": test >>>>>>>>>>>>>>>>>"
 ifeq ($(LAB), 2)
