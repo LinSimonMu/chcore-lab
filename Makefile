@@ -26,6 +26,12 @@ qemu-gdb: $(IMAGES)
 	@echo "***"
 	$(QEMU) -nographic $(QEMUOPTS) -S
 
+debug:
+	qemu-system-aarch64 -machine raspi3b -nographic -serial null -serial mon:stdio -m size=1G -kernel ./build/kernel.img -S -s
+
+run:
+	qemu-system-aarch64 -machine raspi3b -nographic -serial null -serial mon:stdio -m size=1G -kernel ./build/kernel.img
+
 
 gdbport:
 	@echo $(GDBPORT)
