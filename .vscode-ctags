@@ -1,0 +1,841 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/move/Simon/Codes/os-debug/os-lab/chcore-lab/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+$(VERBOSE).SILENT	tests/mm/buddy/Makefile	/^$(VERBOSE).SILENT:$/;"	t
+$(VERBOSE).SILENT	tests/mm/page_table/Makefile	/^$(VERBOSE).SILENT:$/;"	t
+$(VERBOSE)MAKESILENT	tests/mm/buddy/Makefile	/^$(VERBOSE)MAKESILENT = -s$/;"	m
+$(VERBOSE)MAKESILENT	tests/mm/page_table/Makefile	/^$(VERBOSE)MAKESILENT = -s$/;"	m
+%	tests/mm/buddy/Makefile	/^% : %,v$/;"	t
+%	tests/mm/buddy/Makefile	/^% : RCS\/%$/;"	t
+%	tests/mm/buddy/Makefile	/^% : RCS\/%,v$/;"	t
+%	tests/mm/buddy/Makefile	/^% : SCCS\/s.%$/;"	t
+%	tests/mm/buddy/Makefile	/^% : s.%$/;"	t
+%	tests/mm/page_table/Makefile	/^% : %,v$/;"	t
+%	tests/mm/page_table/Makefile	/^% : RCS\/%$/;"	t
+%	tests/mm/page_table/Makefile	/^% : RCS\/%,v$/;"	t
+%	tests/mm/page_table/Makefile	/^% : SCCS\/s.%$/;"	t
+%	tests/mm/page_table/Makefile	/^% : s.%$/;"	t
+AARCH64_PTE_AF_ACCESSED	kernel/mm/page_table.h	/^#define AARCH64_PTE_AF_ACCESSED /;"	d
+AARCH64_PTE_AP_HIGH_RO_EL0_RO	kernel/mm/page_table.h	/^#define AARCH64_PTE_AP_HIGH_RO_EL0_RO /;"	d
+AARCH64_PTE_AP_HIGH_RW_EL0_RW	kernel/mm/page_table.h	/^#define AARCH64_PTE_AP_HIGH_RW_EL0_RW /;"	d
+AARCH64_PTE_INVALID_MASK	kernel/mm/page_table.h	/^#define AARCH64_PTE_INVALID_MASK /;"	d
+AARCH64_PTE_PXN	kernel/mm/page_table.h	/^#define AARCH64_PTE_PXN /;"	d
+AARCH64_PTE_TABLE_MASK	kernel/mm/page_table.h	/^#define AARCH64_PTE_TABLE_MASK /;"	d
+AARCH64_PTE_UX	kernel/mm/page_table.h	/^#define AARCH64_PTE_UX /;"	d
+AARCH64_PTE_UXN	kernel/mm/page_table.h	/^#define AARCH64_PTE_UXN /;"	d
+ACCESSED	boot/mmu.c	/^#define ACCESSED /;"	d	file:
+AF	kernel/mm/page_table.h	/^		 AF:1,		\/\/ Accesss flag$/;"	m	struct:__anon904f0f38010a::__anon904f0f380308	typeref:typename:u64:1
+AF	kernel/mm/page_table.h	/^		 AF:1,		\/\/ Accesss flag$/;"	m	struct:__anon904f0f38010a::__anon904f0f380408	typeref:typename:u64:1
+AF	kernel/mm/page_table.h	/^		 AF:1,		\/\/ Accesss flag$/;"	m	struct:__anon904f0f38010a::__anon904f0f380508	typeref:typename:u64:1
+ALIGN	boot/boot.h	/^#define ALIGN(/;"	d
+ALIGN	boot/mmu.c	/^#define ALIGN(/;"	d	file:
+ALIGN	kernel/common/macro.h	/^#define ALIGN(/;"	d
+ALTER_FLAGS	tests/mm/page_table/test_aarch64_page_table.c	/^#define ALTER_FLAGS /;"	d	file:
+AP	kernel/mm/page_table.h	/^		 AP:2,		\/\/ Data access permissions$/;"	m	struct:__anon904f0f38010a::__anon904f0f380308	typeref:typename:u64:2
+AP	kernel/mm/page_table.h	/^		 AP:2,		\/\/ Data access permissions$/;"	m	struct:__anon904f0f38010a::__anon904f0f380408	typeref:typename:u64:2
+AP	kernel/mm/page_table.h	/^		 AP:2,		\/\/ Data access permissions$/;"	m	struct:__anon904f0f38010a::__anon904f0f380508	typeref:typename:u64:2
+APTable	kernel/mm/page_table.h	/^		 APTable:2,	\/\/ Access permissions for next level$/;"	m	struct:__anon904f0f38010a::__anon904f0f380208	typeref:typename:u64:2
+ARCHITECTURE_ID	tests/mm/buddy/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#   define ARCHITECTURE_ID /;"	d	file:
+ARCHITECTURE_ID	tests/mm/buddy/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#  define ARCHITECTURE_ID /;"	d	file:
+ARCHITECTURE_ID	tests/mm/buddy/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#  define ARCHITECTURE_ID$/;"	d	file:
+ARCHITECTURE_ID	tests/mm/page_table/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#   define ARCHITECTURE_ID /;"	d	file:
+ARCHITECTURE_ID	tests/mm/page_table/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#  define ARCHITECTURE_ID /;"	d	file:
+ARCHITECTURE_ID	tests/mm/page_table/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#  define ARCHITECTURE_ID$/;"	d	file:
+ARCH_EXEC_CONT_SIZE	kernel/common/registers.h	/^#define ARCH_EXEC_CONT_SIZE /;"	d
+AUX_ENABLES	boot/uart.h	/^#define AUX_ENABLES /;"	d
+AUX_ENABLES	kernel/common/peripherals.h	/^#define AUX_ENABLES /;"	d
+AUX_MU_BAUD_REG	boot/uart.h	/^#define AUX_MU_BAUD_REG /;"	d
+AUX_MU_BAUD_REG	kernel/common/peripherals.h	/^#define AUX_MU_BAUD_REG /;"	d
+AUX_MU_CNTL_REG	boot/uart.h	/^#define AUX_MU_CNTL_REG /;"	d
+AUX_MU_CNTL_REG	kernel/common/peripherals.h	/^#define AUX_MU_CNTL_REG /;"	d
+AUX_MU_IER_REG	boot/uart.h	/^#define AUX_MU_IER_REG /;"	d
+AUX_MU_IER_REG	kernel/common/peripherals.h	/^#define AUX_MU_IER_REG /;"	d
+AUX_MU_IIR_REG	boot/uart.h	/^#define AUX_MU_IIR_REG /;"	d
+AUX_MU_IIR_REG	kernel/common/peripherals.h	/^#define AUX_MU_IIR_REG /;"	d
+AUX_MU_IO_REG	boot/uart.h	/^#define AUX_MU_IO_REG /;"	d
+AUX_MU_IO_REG	kernel/common/peripherals.h	/^#define AUX_MU_IO_REG /;"	d
+AUX_MU_LCR_REG	boot/uart.h	/^#define AUX_MU_LCR_REG /;"	d
+AUX_MU_LCR_REG	kernel/common/peripherals.h	/^#define AUX_MU_LCR_REG /;"	d
+AUX_MU_LSR_REG	boot/uart.h	/^#define AUX_MU_LSR_REG /;"	d
+AUX_MU_LSR_REG	kernel/common/peripherals.h	/^#define AUX_MU_LSR_REG /;"	d
+AUX_MU_MCR_REG	boot/uart.h	/^#define AUX_MU_MCR_REG /;"	d
+AUX_MU_MCR_REG	kernel/common/peripherals.h	/^#define AUX_MU_MCR_REG /;"	d
+AUX_MU_MSR_REG	boot/uart.h	/^#define AUX_MU_MSR_REG /;"	d
+AUX_MU_MSR_REG	kernel/common/peripherals.h	/^#define AUX_MU_MSR_REG /;"	d
+AUX_MU_SCRATCH	boot/uart.h	/^#define AUX_MU_SCRATCH /;"	d
+AUX_MU_SCRATCH	kernel/common/peripherals.h	/^#define AUX_MU_SCRATCH /;"	d
+AUX_MU_STAT_REG	boot/uart.h	/^#define AUX_MU_STAT_REG /;"	d
+AUX_MU_STAT_REG	kernel/common/peripherals.h	/^#define AUX_MU_STAT_REG /;"	d
+BEGIN_FUNC	kernel/common/asm.h	/^#define BEGIN_FUNC(/;"	d
+BIT	kernel/common/macro.h	/^#define BIT(/;"	d
+BLOCK_PTP	kernel/mm/page_table.c	/^#define BLOCK_PTP /;"	d	file:
+BUDDY_MAX_ORDER	kernel/mm/buddy.h	/^#define BUDDY_MAX_ORDER /;"	d
+BUDDY_PAGE_SIZE	kernel/mm/buddy.h	/^#define BUDDY_PAGE_SIZE /;"	d
+BUDDY_PAGE_SIZE_ORDER	kernel/mm/buddy.c	/^#define BUDDY_PAGE_SIZE_ORDER /;"	d	file:
+BUG	kernel/common/macro.h	/^#define BUG(/;"	d
+BUG_ON	kernel/common/macro.h	/^#define BUG_ON(/;"	d
+BUILD_DIR	Makefile	/^BUILD_DIR := .\/build$/;"	m
+CACHELINE_SZ	kernel/common/types.h	/^#define CACHELINE_SZ /;"	d
+CMAKE_BINARY_DIR	tests/mm/buddy/Makefile	/^CMAKE_BINARY_DIR = \/home\/move\/Simon\/Codes\/os-debug\/os-lab\/chcore-lab\/tests\/mm\/buddy$/;"	m
+CMAKE_BINARY_DIR	tests/mm/page_table/Makefile	/^CMAKE_BINARY_DIR = \/home\/move\/Simon\/Codes\/os-debug\/os-lab\/chcore-lab\/tests\/mm\/page_tab/;"	m
+CMAKE_COMMAND	tests/mm/buddy/Makefile	/^CMAKE_COMMAND = \/usr\/bin\/cmake$/;"	m
+CMAKE_COMMAND	tests/mm/page_table/Makefile	/^CMAKE_COMMAND = \/usr\/bin\/cmake$/;"	m
+CMAKE_SOURCE_DIR	tests/mm/buddy/Makefile	/^CMAKE_SOURCE_DIR = \/home\/move\/Simon\/Codes\/os-debug\/os-lab\/chcore-lab\/tests\/mm\/buddy$/;"	m
+CMAKE_SOURCE_DIR	tests/mm/page_table/Makefile	/^CMAKE_SOURCE_DIR = \/home\/move\/Simon\/Codes\/os-debug\/os-lab\/chcore-lab\/tests\/mm\/page_tab/;"	m
+COMPILER_ID	tests/mm/buddy/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^# define COMPILER_ID /;"	d	file:
+COMPILER_ID	tests/mm/page_table/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^# define COMPILER_ID /;"	d	file:
+COMPILER_VERSION	tests/mm/buddy/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#   define COMPILER_VERSION /;"	d	file:
+COMPILER_VERSION	tests/mm/page_table/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#   define COMPILER_VERSION /;"	d	file:
+COMPILER_VERSION_INTERNAL	tests/mm/buddy/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#   define COMPILER_VERSION_INTERNAL /;"	d	file:
+COMPILER_VERSION_INTERNAL	tests/mm/buddy/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#  define COMPILER_VERSION_INTERNAL /;"	d	file:
+COMPILER_VERSION_INTERNAL	tests/mm/buddy/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^# define COMPILER_VERSION_INTERNAL /;"	d	file:
+COMPILER_VERSION_INTERNAL	tests/mm/page_table/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#   define COMPILER_VERSION_INTERNAL /;"	d	file:
+COMPILER_VERSION_INTERNAL	tests/mm/page_table/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#  define COMPILER_VERSION_INTERNAL /;"	d	file:
+COMPILER_VERSION_INTERNAL	tests/mm/page_table/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^# define COMPILER_VERSION_INTERNAL /;"	d	file:
+COMPILER_VERSION_INTERNAL_STR	tests/mm/buddy/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^# define COMPILER_VERSION_INTERNAL_STR /;"	d	file:
+COMPILER_VERSION_INTERNAL_STR	tests/mm/page_table/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^# define COMPILER_VERSION_INTERNAL_STR /;"	d	file:
+COMPILER_VERSION_MAJOR	tests/mm/buddy/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^  # define COMPILER_VERSION_MAJOR /;"	d	file:
+COMPILER_VERSION_MAJOR	tests/mm/buddy/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#   define COMPILER_VERSION_MAJOR /;"	d	file:
+COMPILER_VERSION_MAJOR	tests/mm/buddy/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#  define COMPILER_VERSION_MAJOR /;"	d	file:
+COMPILER_VERSION_MAJOR	tests/mm/buddy/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^# define COMPILER_VERSION_MAJOR /;"	d	file:
+COMPILER_VERSION_MAJOR	tests/mm/page_table/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^  # define COMPILER_VERSION_MAJOR /;"	d	file:
+COMPILER_VERSION_MAJOR	tests/mm/page_table/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#   define COMPILER_VERSION_MAJOR /;"	d	file:
+COMPILER_VERSION_MAJOR	tests/mm/page_table/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#  define COMPILER_VERSION_MAJOR /;"	d	file:
+COMPILER_VERSION_MAJOR	tests/mm/page_table/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^# define COMPILER_VERSION_MAJOR /;"	d	file:
+COMPILER_VERSION_MINOR	tests/mm/buddy/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^  # define COMPILER_VERSION_MINOR /;"	d	file:
+COMPILER_VERSION_MINOR	tests/mm/buddy/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#   define COMPILER_VERSION_MINOR /;"	d	file:
+COMPILER_VERSION_MINOR	tests/mm/buddy/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#  define COMPILER_VERSION_MINOR /;"	d	file:
+COMPILER_VERSION_MINOR	tests/mm/buddy/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^# define COMPILER_VERSION_MINOR /;"	d	file:
+COMPILER_VERSION_MINOR	tests/mm/page_table/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^  # define COMPILER_VERSION_MINOR /;"	d	file:
+COMPILER_VERSION_MINOR	tests/mm/page_table/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#   define COMPILER_VERSION_MINOR /;"	d	file:
+COMPILER_VERSION_MINOR	tests/mm/page_table/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#  define COMPILER_VERSION_MINOR /;"	d	file:
+COMPILER_VERSION_MINOR	tests/mm/page_table/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^# define COMPILER_VERSION_MINOR /;"	d	file:
+COMPILER_VERSION_PATCH	tests/mm/buddy/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^  # define COMPILER_VERSION_PATCH /;"	d	file:
+COMPILER_VERSION_PATCH	tests/mm/buddy/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#   define COMPILER_VERSION_PATCH /;"	d	file:
+COMPILER_VERSION_PATCH	tests/mm/buddy/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#  define COMPILER_VERSION_PATCH /;"	d	file:
+COMPILER_VERSION_PATCH	tests/mm/buddy/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^# define COMPILER_VERSION_PATCH /;"	d	file:
+COMPILER_VERSION_PATCH	tests/mm/page_table/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^  # define COMPILER_VERSION_PATCH /;"	d	file:
+COMPILER_VERSION_PATCH	tests/mm/page_table/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#   define COMPILER_VERSION_PATCH /;"	d	file:
+COMPILER_VERSION_PATCH	tests/mm/page_table/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#  define COMPILER_VERSION_PATCH /;"	d	file:
+COMPILER_VERSION_PATCH	tests/mm/page_table/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^# define COMPILER_VERSION_PATCH /;"	d	file:
+COMPILER_VERSION_TWEAK	tests/mm/buddy/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#  define COMPILER_VERSION_TWEAK /;"	d	file:
+COMPILER_VERSION_TWEAK	tests/mm/buddy/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^# define COMPILER_VERSION_TWEAK /;"	d	file:
+COMPILER_VERSION_TWEAK	tests/mm/page_table/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#  define COMPILER_VERSION_TWEAK /;"	d	file:
+COMPILER_VERSION_TWEAK	tests/mm/page_table/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^# define COMPILER_VERSION_TWEAK /;"	d	file:
+CORE0_IRQ	kernel/common/machine.h	/^#define CORE0_IRQ	/;"	d
+CORE0_TIMER_IRQCNTL	kernel/common/machine.h	/^#define CORE0_TIMER_IRQCNTL	/;"	d
+CORE1_IRQ	kernel/common/machine.h	/^#define CORE1_IRQ	/;"	d
+CORE1_TIMER_IRQCNTL	kernel/common/machine.h	/^#define CORE1_TIMER_IRQCNTL	/;"	d
+CORE2_IRQ	kernel/common/machine.h	/^#define CORE2_IRQ	/;"	d
+CORE2_TIMER_IRQCNTL	kernel/common/machine.h	/^#define CORE2_TIMER_IRQCNTL	/;"	d
+CORE3_IRQ	kernel/common/machine.h	/^#define CORE3_IRQ	/;"	d
+CORE3_TIMER_IRQCNTL	kernel/common/machine.h	/^#define CORE3_TIMER_IRQCNTL	/;"	d
+C_VERSION	tests/mm/buddy/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#  define C_VERSION /;"	d	file:
+C_VERSION	tests/mm/buddy/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#  define C_VERSION$/;"	d	file:
+C_VERSION	tests/mm/buddy/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^# define C_VERSION /;"	d	file:
+C_VERSION	tests/mm/page_table/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#  define C_VERSION /;"	d	file:
+C_VERSION	tests/mm/page_table/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#  define C_VERSION$/;"	d	file:
+C_VERSION	tests/mm/page_table/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^# define C_VERSION /;"	d	file:
+Contiguous	kernel/mm/page_table.h	/^		 Contiguous:1, PXN:1,	\/\/ Privileged execute-never$/;"	m	struct:__anon904f0f38010a::__anon904f0f380308	typeref:typename:u64:1
+Contiguous	kernel/mm/page_table.h	/^		 Contiguous:1, PXN:1,	\/\/ Privileged execute-never$/;"	m	struct:__anon904f0f38010a::__anon904f0f380408	typeref:typename:u64:1
+Contiguous	kernel/mm/page_table.h	/^		 Contiguous:1, PXN:1,	\/\/ Privileged execute-never$/;"	m	struct:__anon904f0f38010a::__anon904f0f380508	typeref:typename:u64:1
+DATA	kernel/common/asm.h	/^#define DATA(/;"	d
+DBM	kernel/mm/page_table.h	/^		 pfn:36, reserved:3, DBM:1,	\/\/ Dirty bit modifier$/;"	m	struct:__anon904f0f38010a::__anon904f0f380508	typeref:typename:u64:1
+DBM	kernel/mm/page_table.h	/^		 reserved1:4, nT:1, reserved2:13, pfn:18, reserved3:2, GP:1, reserved4:1, DBM:1,	\/\/ Dirty bi/;"	m	struct:__anon904f0f38010a::__anon904f0f380308	typeref:typename:u64:1
+DBM	kernel/mm/page_table.h	/^		 reserved1:4, nT:1, reserved2:4, pfn:27, reserved3:2, GP:1, reserved4:1, DBM:1,	\/\/ Dirty bit/;"	m	struct:__anon904f0f38010a::__anon904f0f380408	typeref:typename:u64:1
+DEBUG	kernel/common/kprint.h	/^#define DEBUG /;"	d
+DEC	tests/mm/buddy/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#define DEC(/;"	d	file:
+DEC	tests/mm/page_table/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#define DEC(/;"	d	file:
+DEFAULT_FLAGS	tests/mm/page_table/test_aarch64_page_table.c	/^#define DEFAULT_FLAGS /;"	d	file:
+DEVICE_MEMORY	boot/mmu.c	/^#define DEVICE_MEMORY /;"	d	file:
+DEVICE_MEMORY	kernel/mm/page_table.h	/^#define DEVICE_MEMORY /;"	d
+DIV_ROUND_UP	kernel/common/macro.h	/^#define DIV_ROUND_UP(/;"	d
+EACCES	kernel/common/errno.h	/^#define EACCES /;"	d
+EAGAIN	kernel/common/errno.h	/^#define EAGAIN /;"	d
+EBADSYSCALL	kernel/common/errno.h	/^#define EBADSYSCALL /;"	d
+EBUSY	kernel/common/errno.h	/^#define EBUSY /;"	d
+ECAPBILITY	kernel/common/errno.h	/^#define ECAPBILITY /;"	d
+EEXIST	kernel/common/errno.h	/^#define EEXIST /;"	d
+EFAULT	kernel/common/errno.h	/^#define	EFAULT	/;"	d
+EFBIG	kernel/common/errno.h	/^#define EFBIG /;"	d
+EINVAL	kernel/common/errno.h	/^#define EINVAL /;"	d
+ELR_EL1	kernel/common/registers.h	/^	ELR_EL1 = 32,		\/* 0x100 NEXT PC *\/$/;"	e	enum:reg_type
+EMAX	kernel/common/errno.h	/^#define EMAX /;"	d
+END_DATA	kernel/common/asm.h	/^#define END_DATA(/;"	d
+END_FUNC	kernel/common/asm.h	/^#define END_FUNC(/;"	d
+ENODATA	kernel/common/errno.h	/^#define ENODATA /;"	d
+ENOENT	kernel/common/errno.h	/^#define ENOENT /;"	d
+ENOMAPPING	kernel/common/errno.h	/^#define ENOMAPPING /;"	d
+ENOMEM	kernel/common/errno.h	/^#define ENOMEM /;"	d
+ENOSPC	kernel/common/errno.h	/^#define ENOSPC /;"	d
+ENOSYS	kernel/common/errno.h	/^#define ENOSYS /;"	d
+ENOTDIR	kernel/common/errno.h	/^#define ENOTDIR /;"	d
+ENOTEMPTY	kernel/common/errno.h	/^#define ENOTEMPTY /;"	d
+EPERM	kernel/common/errno.h	/^#define EPERM /;"	d
+EQUALS	tests/mm/buddy/Makefile	/^EQUALS = =$/;"	m
+EQUALS	tests/mm/page_table/Makefile	/^EQUALS = =$/;"	m
+ERR_PTR	kernel/common/errno.h	/^#define ERR_PTR(/;"	d
+ESUPPORT	kernel/common/errno.h	/^#define ESUPPORT /;"	d
+ETIME	kernel/common/errno.h	/^#define ETIME /;"	d
+EXPORT	kernel/common/asm.h	/^#define	EXPORT(/;"	d
+FORCE	Makefile	/^FORCE:$/;"	t
+GDBPORT	Makefile	/^GDBPORT	:= 1234$/;"	m
+GET_L0_INDEX	boot/mmu.c	/^#define GET_L0_INDEX(/;"	d	file:
+GET_L0_INDEX	kernel/mm/page_table.h	/^#define GET_L0_INDEX(/;"	d
+GET_L1_INDEX	boot/mmu.c	/^#define GET_L1_INDEX(/;"	d	file:
+GET_L1_INDEX	kernel/mm/page_table.h	/^#define GET_L1_INDEX(/;"	d
+GET_L2_INDEX	boot/mmu.c	/^#define GET_L2_INDEX(/;"	d	file:
+GET_L2_INDEX	kernel/mm/page_table.h	/^#define GET_L2_INDEX(/;"	d
+GET_L3_INDEX	kernel/mm/page_table.h	/^#define GET_L3_INDEX(/;"	d
+GET_NEXT_PTP	kernel/mm/page_table.c	/^#define GET_NEXT_PTP(/;"	d	file:
+GET_PADDR_IN_PTE	kernel/mm/page_table.c	/^#define GET_PADDR_IN_PTE(/;"	d	file:
+GET_VA_OFFSET_L1	kernel/mm/page_table.h	/^#define GET_VA_OFFSET_L1(/;"	d
+GET_VA_OFFSET_L2	kernel/mm/page_table.h	/^#define GET_VA_OFFSET_L2(/;"	d
+GET_VA_OFFSET_L3	kernel/mm/page_table.h	/^#define GET_VA_OFFSET_L3(/;"	d
+GP	kernel/mm/page_table.h	/^		 reserved1:4, nT:1, reserved2:13, pfn:18, reserved3:2, GP:1, reserved4:1, DBM:1,	\/\/ Dirty bi/;"	m	struct:__anon904f0f38010a::__anon904f0f380308	typeref:typename:u64:1
+GP	kernel/mm/page_table.h	/^		 reserved1:4, nT:1, reserved2:4, pfn:27, reserved3:2, GP:1, reserved4:1, DBM:1,	\/\/ Dirty bit/;"	m	struct:__anon904f0f38010a::__anon904f0f380408	typeref:typename:u64:1
+GPCLR0	boot/uart.h	/^#define GPCLR0 /;"	d
+GPCLR0	kernel/common/peripherals.h	/^#define GPCLR0 /;"	d
+GPFSEL1	boot/uart.h	/^#define GPFSEL1 /;"	d
+GPFSEL1	kernel/common/peripherals.h	/^#define GPFSEL1 /;"	d
+GPPUD	boot/uart.h	/^#define GPPUD /;"	d
+GPPUD	kernel/common/peripherals.h	/^#define GPPUD /;"	d
+GPPUDCLK0	boot/uart.h	/^#define GPPUDCLK0 /;"	d
+GPPUDCLK0	kernel/common/peripherals.h	/^#define GPPUDCLK0 /;"	d
+GPSET0	boot/uart.h	/^#define GPSET0 /;"	d
+GPSET0	kernel/common/peripherals.h	/^#define GPSET0 /;"	d
+HEX	tests/mm/buddy/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#define HEX(/;"	d	file:
+HEX	tests/mm/page_table/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#define HEX(/;"	d	file:
+IDLE_STACK_SIZE	kernel/common/vars.h	/^#define IDLE_STACK_SIZE /;"	d
+ID_VOID_MAIN	tests/mm/buddy/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^# define ID_VOID_MAIN$/;"	d	file:
+ID_VOID_MAIN	tests/mm/page_table/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^# define ID_VOID_MAIN$/;"	d	file:
+IMAGES	Makefile	/^IMAGES = $(BUILD_DIR)\/kernel.img$/;"	m
+IMER_IRQCNTL_BASE	kernel/common/machine.h	/^#define IMER_IRQCNTL_BASE	/;"	d
+INFO	kernel/common/kprint.h	/^#define INFO /;"	d
+INIT_STACK_SIZE	boot/init_c.c	/^#define INIT_STACK_SIZE /;"	d	file:
+INNER_SHARABLE	boot/mmu.c	/^#define INNER_SHARABLE /;"	d	file:
+INNER_SHAREABLE	kernel/mm/page_table.h	/^#define INNER_SHAREABLE /;"	d
+INT_SRC_TIMER3	kernel/common/machine.h	/^#define INT_SRC_TIMER3	/;"	d
+IRQ_BASE	kernel/common/machine.h	/^#define IRQ_BASE	/;"	d
+IS_ALIGNED	kernel/common/macro.h	/^#define IS_ALIGNED(/;"	d
+IS_ERR	kernel/common/errno.h	/^#define IS_ERR(/;"	d
+IS_PTE_INVALID	kernel/mm/page_table.h	/^#define IS_PTE_INVALID(/;"	d
+IS_PTE_TABLE	kernel/mm/page_table.h	/^#define IS_PTE_TABLE(/;"	d
+IS_TABLE	boot/mmu.c	/^#define IS_TABLE /;"	d	file:
+IS_VALID	boot/mmu.c	/^#define IS_VALID /;"	d	file:
+KBASE	kernel/common/mmu.h	/^#define KBASE /;"	d
+KBASE	kernel/common/vars.h	/^#define KBASE /;"	d
+KERNEL_PT	kernel/common/mmu.h	/^#define KERNEL_PT /;"	d
+KERNEL_PTE	kernel/mm/page_table.c	/^#define KERNEL_PTE /;"	d	file:
+KERNEL_STACK_SIZE	kernel/common/vars.h	/^#define KERNEL_STACK_SIZE /;"	d
+KERNEL_VADDR	boot/image.h	/^#define KERNEL_VADDR	/;"	d
+L0_INDEX_SHIFT	kernel/mm/page_table.h	/^#define L0_INDEX_SHIFT	/;"	d
+L0_PER_ENTRY_PAGES	kernel/mm/page_table.h	/^#define L0_PER_ENTRY_PAGES	/;"	d
+L1_BLOCK_MASK	kernel/mm/page_table.h	/^#define L1_BLOCK_MASK /;"	d
+L1_INDEX_SHIFT	kernel/mm/page_table.h	/^#define L1_INDEX_SHIFT	/;"	d
+L1_PER_ENTRY_PAGES	kernel/mm/page_table.h	/^#define L1_PER_ENTRY_PAGES	/;"	d
+L2_BLOCK_MASK	kernel/mm/page_table.h	/^#define L2_BLOCK_MASK /;"	d
+L2_INDEX_SHIFT	kernel/mm/page_table.h	/^#define L2_INDEX_SHIFT	/;"	d
+L2_PER_ENTRY_PAGES	kernel/mm/page_table.h	/^#define L2_PER_ENTRY_PAGES	/;"	d
+L3_INDEX_SHIFT	kernel/mm/page_table.h	/^#define L3_INDEX_SHIFT	/;"	d
+L3_PAGE_MASK	kernel/mm/page_table.h	/^#define L3_PAGE_MASK /;"	d
+L3_PER_ENTRY_PAGES	kernel/mm/page_table.h	/^#define L3_PER_ENTRY_PAGES	/;"	d
+LAB	Makefile	/^LAB := 2$/;"	m
+LOCAL_DATA	kernel/common/asm.h	/^#define LOCAL_DATA(/;"	d
+MAX	kernel/common/macro.h	/^#define MAX(/;"	d
+MIN	kernel/common/macro.h	/^#define MIN(/;"	d
+MINUNIT_EPSILON	tests/include/minunit.h	/^#define MINUNIT_EPSILON /;"	d
+MINUNIT_MESSAGE_LEN	tests/include/minunit.h	/^#define MINUNIT_MESSAGE_LEN /;"	d
+MINUNIT_MINUNIT_H	tests/include/minunit.h	/^#define MINUNIT_MINUNIT_H$/;"	d
+MU_REPORT	tests/include/minunit.h	/^#define MU_REPORT(/;"	d
+MU_RUN_SUITE	tests/include/minunit.h	/^#define MU_RUN_SUITE(/;"	d
+MU_RUN_TEST	tests/include/minunit.h	/^#define MU_RUN_TEST(/;"	d
+MU_SUITE_CONFIGURE	tests/include/minunit.h	/^#define MU_SUITE_CONFIGURE(/;"	d
+MU_TEST	tests/include/minunit.h	/^#define MU_TEST(/;"	d
+MU_TEST	tests/mm/page_table/test_aarch64_page_table.c	/^MU_TEST(test_map_unmap_page)$/;"	f
+MU_TEST_SUITE	tests/include/minunit.h	/^#define MU_TEST_SUITE(/;"	d
+MU_TEST_SUITE	tests/mm/buddy/test_buddy.c	/^MU_TEST_SUITE(test_suite)$/;"	f
+MU_TEST_SUITE	tests/mm/page_table/test_aarch64_page_table.c	/^MU_TEST_SUITE(test_suite)$/;"	f
+MU__SAFE_BLOCK	tests/include/minunit.h	/^#define MU__SAFE_BLOCK(/;"	d
+NB_UART_NRET	kernel/common/uart.h	/^#define NB_UART_NRET /;"	d
+NORMAL_MEMORY	boot/mmu.c	/^#define NORMAL_MEMORY /;"	d	file:
+NORMAL_MEMORY	kernel/mm/page_table.h	/^#define NORMAL_MEMORY /;"	d
+NORMAL_PTP	kernel/mm/page_table.c	/^#define NORMAL_PTP /;"	d	file:
+NOT_BSS	boot/init_c.c	/^#define NOT_BSS /;"	d	file:
+NPAGES	kernel/mm/mm.c	/^#define NPAGES /;"	d	file:
+NPAGES	tests/mm/buddy/test_buddy.c	/^#define NPAGES /;"	d	file:
+NS	kernel/mm/page_table.h	/^		 NS:1,		\/\/ Non-secure$/;"	m	struct:__anon904f0f38010a::__anon904f0f380308	typeref:typename:u64:1
+NS	kernel/mm/page_table.h	/^		 NS:1,		\/\/ Non-secure$/;"	m	struct:__anon904f0f38010a::__anon904f0f380408	typeref:typename:u64:1
+NS	kernel/mm/page_table.h	/^		 NS:1,		\/\/ Non-secure$/;"	m	struct:__anon904f0f38010a::__anon904f0f380508	typeref:typename:u64:1
+NSTable	kernel/mm/page_table.h	/^		 NSTable:1;$/;"	m	struct:__anon904f0f38010a::__anon904f0f380208	typeref:typename:u64:1
+NULL	kernel/common/types.h	/^#define NULL /;"	d
+PAD_RIGHT	kernel/common/printk.c	/^	PAD_RIGHT = 2$/;"	e	enum:flags	file:
+PAD_ZERO	kernel/common/printk.c	/^	PAD_ZERO = 1,$/;"	e	enum:flags	file:
+PAGE_MASK	kernel/mm/page_table.h	/^#define PAGE_MASK /;"	d
+PAGE_ORDER	kernel/mm/page_table.h	/^#define PAGE_ORDER /;"	d
+PAGE_SHIFT	kernel/mm/page_table.h	/^#define PAGE_SHIFT /;"	d
+PAGE_SIZE	kernel/common/mm.h	/^#define PAGE_SIZE /;"	d
+PBHA	kernel/mm/page_table.h	/^		 soft_reserved:4, PBHA:4,	\/\/ Page based hardware attributes$/;"	m	struct:__anon904f0f38010a::__anon904f0f380508	typeref:typename:u64:4
+PBHA	kernel/mm/page_table.h	/^		 soft_reserved:4, PBHA:4;	\/\/ Page based hardware attributes$/;"	m	struct:__anon904f0f38010a::__anon904f0f380308	typeref:typename:u64:4
+PBHA	kernel/mm/page_table.h	/^		 soft_reserved:4, PBHA:4;	\/\/ Page based hardware attributes$/;"	m	struct:__anon904f0f38010a::__anon904f0f380408	typeref:typename:u64:4
+PERIPHERAL_BASE	boot/mmu.c	/^#define PERIPHERAL_BASE /;"	d	file:
+PHYSADDR_OFFSET	boot/uart.h	/^#define PHYSADDR_OFFSET /;"	d
+PHYSADDR_OFFSET	kernel/common/peripherals.h	/^#define PHYSADDR_OFFSET /;"	d
+PHYSICAL_MEM_END	kernel/mm/mm.c	/^#define PHYSICAL_MEM_END /;"	d	file:
+PHYSICAL_MEM_START	kernel/mm/mm.c	/^#define PHYSICAL_MEM_START /;"	d	file:
+PHYSMEM_BOOT_END	boot/mmu.c	/^#define PHYSMEM_BOOT_END /;"	d	file:
+PHYSMEM_END	boot/mmu.c	/^#define PHYSMEM_END	/;"	d	file:
+PHYSMEM_START	boot/mmu.c	/^#define PHYSMEM_START	/;"	d	file:
+PLATFORM_ID	tests/mm/buddy/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#  define PLATFORM_ID /;"	d	file:
+PLATFORM_ID	tests/mm/buddy/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#  define PLATFORM_ID$/;"	d	file:
+PLATFORM_ID	tests/mm/buddy/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^# define PLATFORM_ID /;"	d	file:
+PLATFORM_ID	tests/mm/buddy/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^# define PLATFORM_ID$/;"	d	file:
+PLATFORM_ID	tests/mm/page_table/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#  define PLATFORM_ID /;"	d	file:
+PLATFORM_ID	tests/mm/page_table/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#  define PLATFORM_ID$/;"	d	file:
+PLATFORM_ID	tests/mm/page_table/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^# define PLATFORM_ID /;"	d	file:
+PLATFORM_ID	tests/mm/page_table/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^# define PLATFORM_ID$/;"	d	file:
+PLAT_CPU_NUM	kernel/common/machine.h	/^#define PLAT_CPU_NUM /;"	d
+PLAT_CPU_NUMBER	boot/boot.h	/^#define PLAT_CPU_NUMBER	/;"	d
+PRINT_BUF_LEN	kernel/common/printk.c	/^#define PRINT_BUF_LEN /;"	d	file:
+PTE_DESCRIPTOR_INVALID	kernel/mm/page_table.h	/^#define PTE_DESCRIPTOR_INVALID /;"	d
+PTP_ENTRIES	boot/mmu.c	/^#define PTP_ENTRIES /;"	d	file:
+PTP_ENTRIES	kernel/mm/page_table.h	/^#define PTP_ENTRIES /;"	d
+PTP_INDEX_MASK	kernel/mm/page_table.h	/^#define PTP_INDEX_MASK	/;"	d
+PTP_SIZE	boot/mmu.c	/^#define PTP_SIZE /;"	d	file:
+PTR_ERR	kernel/common/errno.h	/^#define PTR_ERR(/;"	d
+PXN	kernel/mm/page_table.h	/^		 Contiguous:1, PXN:1,	\/\/ Privileged execute-never$/;"	m	struct:__anon904f0f38010a::__anon904f0f380308	typeref:typename:u64:1
+PXN	kernel/mm/page_table.h	/^		 Contiguous:1, PXN:1,	\/\/ Privileged execute-never$/;"	m	struct:__anon904f0f38010a::__anon904f0f380408	typeref:typename:u64:1
+PXN	kernel/mm/page_table.h	/^		 Contiguous:1, PXN:1,	\/\/ Privileged execute-never$/;"	m	struct:__anon904f0f38010a::__anon904f0f380508	typeref:typename:u64:1
+PXNTable	kernel/mm/page_table.h	/^		u64 is_valid:1, is_table:1, ignored1:10, next_table_addr:36, reserved:4, ignored2:7, PXNTable:/;"	m	struct:__anon904f0f38010a::__anon904f0f380208	typeref:typename:u64:1
+QEMU	Makefile	/^QEMU := qemu-system-aarch64$/;"	m
+QEMUOPTS	Makefile	/^QEMUOPTS = -machine raspi3b -serial null -serial mon:stdio -m size=1G -kernel $(BUILD_DIR)\/kern/;"	m
+REG_NUM	kernel/common/registers.h	/^#define REG_NUM /;"	d
+RM	tests/mm/buddy/Makefile	/^RM = \/usr\/bin\/cmake -E rm -f$/;"	m
+RM	tests/mm/page_table/Makefile	/^RM = \/usr\/bin\/cmake -E rm -f$/;"	m
+RND_MAPPING_PAGES	tests/mm/page_table/test_aarch64_page_table.c	/^#define RND_MAPPING_PAGES /;"	d	file:
+RND_PA_MAX	tests/mm/page_table/test_aarch64_page_table.c	/^#define RND_PA_MAX /;"	d	file:
+RND_SEED	tests/mm/page_table/test_aarch64_page_table.c	/^#define RND_SEED /;"	d	file:
+RND_VA_MAX	tests/mm/page_table/test_aarch64_page_table.c	/^#define RND_VA_MAX /;"	d	file:
+ROUND	tests/mm/buddy/test_buddy.c	/^#define ROUND /;"	d	file:
+ROUND_DOWN	kernel/common/macro.h	/^#define ROUND_DOWN(/;"	d
+ROUND_UP	kernel/common/macro.h	/^#define ROUND_UP(/;"	d
+SCTLR_EL1_A	kernel/common/registers.h	/^#define SCTLR_EL1_A /;"	d
+SCTLR_EL1_C	kernel/common/registers.h	/^#define SCTLR_EL1_C /;"	d
+SCTLR_EL1_CP15BEN	kernel/common/registers.h	/^#define SCTLR_EL1_CP15BEN /;"	d
+SCTLR_EL1_DZE	kernel/common/registers.h	/^#define SCTLR_EL1_DZE /;"	d
+SCTLR_EL1_E0E	kernel/common/registers.h	/^#define SCTLR_EL1_E0E /;"	d
+SCTLR_EL1_EE	kernel/common/registers.h	/^#define SCTLR_EL1_EE /;"	d
+SCTLR_EL1_EnDA	kernel/common/registers.h	/^#define SCTLR_EL1_EnDA /;"	d
+SCTLR_EL1_EnDB	kernel/common/registers.h	/^#define SCTLR_EL1_EnDB /;"	d
+SCTLR_EL1_EnIA	kernel/common/registers.h	/^#define SCTLR_EL1_EnIA /;"	d
+SCTLR_EL1_EnIB	kernel/common/registers.h	/^#define SCTLR_EL1_EnIB /;"	d
+SCTLR_EL1_I	kernel/common/registers.h	/^#define SCTLR_EL1_I /;"	d
+SCTLR_EL1_IESB	kernel/common/registers.h	/^#define SCTLR_EL1_IESB /;"	d
+SCTLR_EL1_ITD	kernel/common/registers.h	/^#define SCTLR_EL1_ITD /;"	d
+SCTLR_EL1_LSMAOE	kernel/common/registers.h	/^#define SCTLR_EL1_LSMAOE /;"	d
+SCTLR_EL1_M	kernel/common/registers.h	/^#define SCTLR_EL1_M /;"	d
+SCTLR_EL1_SA	kernel/common/registers.h	/^#define SCTLR_EL1_SA /;"	d
+SCTLR_EL1_SA0	kernel/common/registers.h	/^#define SCTLR_EL1_SA0 /;"	d
+SCTLR_EL1_SED	kernel/common/registers.h	/^#define SCTLR_EL1_SED /;"	d
+SCTLR_EL1_SPAN	kernel/common/registers.h	/^#define SCTLR_EL1_SPAN /;"	d
+SCTLR_EL1_UCI	kernel/common/registers.h	/^#define SCTLR_EL1_UCI /;"	d
+SCTLR_EL1_UCT	kernel/common/registers.h	/^#define SCTLR_EL1_UCT /;"	d
+SCTLR_EL1_UMA	kernel/common/registers.h	/^#define SCTLR_EL1_UMA /;"	d
+SCTLR_EL1_WXN	kernel/common/registers.h	/^#define SCTLR_EL1_WXN /;"	d
+SCTLR_EL1_nAA	kernel/common/registers.h	/^#define SCTLR_EL1_nAA /;"	d
+SCTLR_EL1_nTLSMD	kernel/common/registers.h	/^#define SCTLR_EL1_nTLSMD /;"	d
+SCTLR_EL1_nTWE	kernel/common/registers.h	/^#define SCTLR_EL1_nTWE /;"	d
+SCTLR_EL1_nTWI	kernel/common/registers.h	/^#define SCTLR_EL1_nTWI /;"	d
+SH	kernel/mm/page_table.h	/^		 SH:2,		\/\/ Shareability$/;"	m	struct:__anon904f0f38010a::__anon904f0f380308	typeref:typename:u64:2
+SH	kernel/mm/page_table.h	/^		 SH:2,		\/\/ Shareability$/;"	m	struct:__anon904f0f38010a::__anon904f0f380408	typeref:typename:u64:2
+SH	kernel/mm/page_table.h	/^		 SH:2,		\/\/ Shareability$/;"	m	struct:__anon904f0f38010a::__anon904f0f380508	typeref:typename:u64:2
+SHELL	tests/mm/buddy/Makefile	/^SHELL = \/bin\/sh$/;"	m
+SHELL	tests/mm/page_table/Makefile	/^SHELL = \/bin\/sh$/;"	m
+SIMULATE_ID	tests/mm/buddy/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#  define SIMULATE_ID /;"	d	file:
+SIMULATE_ID	tests/mm/buddy/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^# define SIMULATE_ID /;"	d	file:
+SIMULATE_ID	tests/mm/page_table/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#  define SIMULATE_ID /;"	d	file:
+SIMULATE_ID	tests/mm/page_table/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^# define SIMULATE_ID /;"	d	file:
+SIMULATE_VERSION_MAJOR	tests/mm/buddy/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#  define SIMULATE_VERSION_MAJOR /;"	d	file:
+SIMULATE_VERSION_MAJOR	tests/mm/buddy/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^# define SIMULATE_VERSION_MAJOR /;"	d	file:
+SIMULATE_VERSION_MAJOR	tests/mm/page_table/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#  define SIMULATE_VERSION_MAJOR /;"	d	file:
+SIMULATE_VERSION_MAJOR	tests/mm/page_table/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^# define SIMULATE_VERSION_MAJOR /;"	d	file:
+SIMULATE_VERSION_MINOR	tests/mm/buddy/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#  define SIMULATE_VERSION_MINOR /;"	d	file:
+SIMULATE_VERSION_MINOR	tests/mm/buddy/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^# define SIMULATE_VERSION_MINOR /;"	d	file:
+SIMULATE_VERSION_MINOR	tests/mm/page_table/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#  define SIMULATE_VERSION_MINOR /;"	d	file:
+SIMULATE_VERSION_MINOR	tests/mm/page_table/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^# define SIMULATE_VERSION_MINOR /;"	d	file:
+SIMULATE_VERSION_PATCH	tests/mm/buddy/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#  define SIMULATE_VERSION_PATCH /;"	d	file:
+SIMULATE_VERSION_PATCH	tests/mm/buddy/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^# define SIMULATE_VERSION_PATCH /;"	d	file:
+SIMULATE_VERSION_PATCH	tests/mm/page_table/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#  define SIMULATE_VERSION_PATCH /;"	d	file:
+SIMULATE_VERSION_PATCH	tests/mm/page_table/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^# define SIMULATE_VERSION_PATCH /;"	d	file:
+SIZE_2M	boot/mmu.c	/^#define SIZE_2M /;"	d	file:
+SLAB_INIT_SIZE	kernel/mm/slab.h	/^#define SLAB_INIT_SIZE /;"	d
+SLAB_MAX_ORDER	kernel/mm/slab.h	/^#define SLAB_MAX_ORDER /;"	d
+SLAB_MIN_ORDER	kernel/mm/slab.h	/^#define SLAB_MIN_ORDER /;"	d
+SPSR_EL1	kernel/common/registers.h	/^	SPSR_EL1 = 33,		\/* 0x108 *\/$/;"	e	enum:reg_type
+SPSR_EL1_C	kernel/common/registers.h	/^#define SPSR_EL1_C /;"	d
+SPSR_EL1_DEBUG	kernel/common/registers.h	/^#define SPSR_EL1_DEBUG /;"	d
+SPSR_EL1_DIT	kernel/common/registers.h	/^#define SPSR_EL1_DIT /;"	d
+SPSR_EL1_EL0t	kernel/common/registers.h	/^#define SPSR_EL1_EL0t /;"	d
+SPSR_EL1_EL1h	kernel/common/registers.h	/^#define SPSR_EL1_EL1h /;"	d
+SPSR_EL1_EL1t	kernel/common/registers.h	/^#define SPSR_EL1_EL1t /;"	d
+SPSR_EL1_FIQ	kernel/common/registers.h	/^#define SPSR_EL1_FIQ /;"	d
+SPSR_EL1_IL	kernel/common/registers.h	/^#define SPSR_EL1_IL /;"	d
+SPSR_EL1_IRQ	kernel/common/registers.h	/^#define SPSR_EL1_IRQ /;"	d
+SPSR_EL1_KERNEL	kernel/common/registers.h	/^#define SPSR_EL1_KERNEL /;"	d
+SPSR_EL1_M	kernel/common/registers.h	/^#define SPSR_EL1_M /;"	d
+SPSR_EL1_N	kernel/common/registers.h	/^#define SPSR_EL1_N /;"	d
+SPSR_EL1_PAN	kernel/common/registers.h	/^#define SPSR_EL1_PAN /;"	d
+SPSR_EL1_SERROR	kernel/common/registers.h	/^#define SPSR_EL1_SERROR /;"	d
+SPSR_EL1_SS	kernel/common/registers.h	/^#define SPSR_EL1_SS /;"	d
+SPSR_EL1_UAO	kernel/common/registers.h	/^#define SPSR_EL1_UAO /;"	d
+SPSR_EL1_USER	kernel/common/registers.h	/^#define SPSR_EL1_USER /;"	d
+SPSR_EL1_V	kernel/common/registers.h	/^#define SPSR_EL1_V /;"	d
+SPSR_EL1_Z	kernel/common/registers.h	/^#define SPSR_EL1_Z /;"	d
+SP_EL0	kernel/common/registers.h	/^	SP_EL0 = 31,		\/* 0xf8 *\/$/;"	e	enum:reg_type
+STACK_ALIGNMENT	kernel/common/vars.h	/^#define STACK_ALIGNMENT /;"	d
+START_VADDR	kernel/mm/mm.c	/^#define START_VADDR /;"	d	file:
+START_VADDR	tests/mm/buddy/test_buddy.c	/^#define START_VADDR /;"	d	file:
+STRINGIFY	tests/mm/buddy/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#define STRINGIFY(/;"	d	file:
+STRINGIFY	tests/mm/page_table/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#define STRINGIFY(/;"	d	file:
+STRINGIFY_HELPER	tests/mm/buddy/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#define STRINGIFY_HELPER(/;"	d	file:
+STRINGIFY_HELPER	tests/mm/page_table/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#define STRINGIFY_HELPER(/;"	d	file:
+SZ_16K	boot/image.h	/^#define SZ_16K	/;"	d
+SZ_64K	boot/image.h	/^#define SZ_64K /;"	d
+SZ_U64	kernel/common/registers.h	/^#define SZ_U64 /;"	d
+TEXT_OFFSET	boot/image.h	/^#define TEXT_OFFSET	/;"	d
+TPIDR_EL0	kernel/common/registers.h	/^	TPIDR_EL0 = 34$/;"	e	enum:reg_type
+USER_PTE	kernel/mm/page_table.c	/^#define USER_PTE /;"	d	file:
+UXN	boot/mmu.c	/^#define UXN	/;"	d	file:
+UXN	kernel/mm/page_table.h	/^		 UXN:1,		\/\/ Execute never$/;"	m	struct:__anon904f0f38010a::__anon904f0f380308	typeref:typename:u64:1
+UXN	kernel/mm/page_table.h	/^		 UXN:1,		\/\/ Execute never$/;"	m	struct:__anon904f0f38010a::__anon904f0f380408	typeref:typename:u64:1
+UXN	kernel/mm/page_table.h	/^		 UXN:1,		\/\/ Execute never$/;"	m	struct:__anon904f0f38010a::__anon904f0f380508	typeref:typename:u64:1
+VMR_EXEC	kernel/common/mmu.h	/^#define VMR_EXEC /;"	d
+VMR_READ	kernel/common/mmu.h	/^#define VMR_READ /;"	d
+VMR_WRITE	kernel/common/mmu.h	/^#define VMR_WRITE /;"	d
+WARN	kernel/common/macro.h	/^#define WARN(/;"	d
+WARNING	kernel/common/kprint.h	/^#define WARNING /;"	d
+WARN_ON	kernel/common/macro.h	/^#define WARN_ON(/;"	d
+X0	kernel/common/registers.h	/^	X0 = 0,			\/* 0x00 *\/$/;"	e	enum:reg_type
+X1	kernel/common/registers.h	/^	X1 = 1,			\/* 0x08 *\/$/;"	e	enum:reg_type
+X10	kernel/common/registers.h	/^	X10 = 10,		\/* 0x50 *\/$/;"	e	enum:reg_type
+X11	kernel/common/registers.h	/^	X11 = 11,		\/* 0x58 *\/$/;"	e	enum:reg_type
+X12	kernel/common/registers.h	/^	X12 = 12,		\/* 0x60 *\/$/;"	e	enum:reg_type
+X13	kernel/common/registers.h	/^	X13 = 13,		\/* 0x68 *\/$/;"	e	enum:reg_type
+X14	kernel/common/registers.h	/^	X14 = 14,		\/* 0x70 *\/$/;"	e	enum:reg_type
+X15	kernel/common/registers.h	/^	X15 = 15,		\/* 0x78 *\/$/;"	e	enum:reg_type
+X16	kernel/common/registers.h	/^	X16 = 16,		\/* 0x80 *\/$/;"	e	enum:reg_type
+X17	kernel/common/registers.h	/^	X17 = 17,		\/* 0x88 *\/$/;"	e	enum:reg_type
+X18	kernel/common/registers.h	/^	X18 = 18,		\/* 0x90 *\/$/;"	e	enum:reg_type
+X19	kernel/common/registers.h	/^	X19 = 19,		\/* 0x98 *\/$/;"	e	enum:reg_type
+X2	kernel/common/registers.h	/^	X2 = 2,			\/* 0x10 *\/$/;"	e	enum:reg_type
+X20	kernel/common/registers.h	/^	X20 = 20,		\/* 0xa0 *\/$/;"	e	enum:reg_type
+X21	kernel/common/registers.h	/^	X21 = 21,		\/* 0xa8 *\/$/;"	e	enum:reg_type
+X22	kernel/common/registers.h	/^	X22 = 22,		\/* 0xb0 *\/$/;"	e	enum:reg_type
+X23	kernel/common/registers.h	/^	X23 = 23,		\/* 0xb8 *\/$/;"	e	enum:reg_type
+X24	kernel/common/registers.h	/^	X24 = 24,		\/* 0xc0 *\/$/;"	e	enum:reg_type
+X25	kernel/common/registers.h	/^	X25 = 25,		\/* 0xc8 *\/$/;"	e	enum:reg_type
+X26	kernel/common/registers.h	/^	X26 = 26,		\/* 0xd0 *\/$/;"	e	enum:reg_type
+X27	kernel/common/registers.h	/^	X27 = 27,		\/* 0xd8 *\/$/;"	e	enum:reg_type
+X28	kernel/common/registers.h	/^	X28 = 28,		\/* 0xe0 *\/$/;"	e	enum:reg_type
+X29	kernel/common/registers.h	/^	X29 = 29,		\/* 0xe8 *\/$/;"	e	enum:reg_type
+X3	kernel/common/registers.h	/^	X3 = 3,			\/* 0x18 *\/$/;"	e	enum:reg_type
+X30	kernel/common/registers.h	/^	X30 = 30,		\/* 0xf0 *\/$/;"	e	enum:reg_type
+X4	kernel/common/registers.h	/^	X4 = 4,			\/* 0x20 *\/$/;"	e	enum:reg_type
+X5	kernel/common/registers.h	/^	X5 = 5,			\/* 0x28 *\/$/;"	e	enum:reg_type
+X6	kernel/common/registers.h	/^	X6 = 6,			\/* 0x30 *\/$/;"	e	enum:reg_type
+X7	kernel/common/registers.h	/^	X7 = 7,			\/* 0x38 *\/$/;"	e	enum:reg_type
+X8	kernel/common/registers.h	/^	X8 = 8,			\/* 0x40 *\/$/;"	e	enum:reg_type
+X9	kernel/common/registers.h	/^	X9 = 9,			\/* 0x48 *\/$/;"	e	enum:reg_type
+XNTable	kernel/mm/page_table.h	/^		 XNTable:1,	\/\/ Execute-never for next level$/;"	m	struct:__anon904f0f38010a::__anon904f0f380208	typeref:typename:u64:1
+_SIZE	kernel/mm/kmalloc.c	/^#define _SIZE /;"	d	file:
+__ASM__	kernel/common/asm.h	/^#define __ASM__$/;"	d
+__anon4b3d0a56010a	kernel/common/printk.c	/^	union {$/;"	u	function:simple_vsprintf	file:
+__anon904f0f38010a	kernel/mm/page_table.h	/^typedef union {$/;"	u
+__anon904f0f380208	kernel/mm/page_table.h	/^	struct {$/;"	s	union:__anon904f0f38010a
+__anon904f0f380308	kernel/mm/page_table.h	/^	struct {$/;"	s	union:__anon904f0f38010a
+__anon904f0f380408	kernel/mm/page_table.h	/^	struct {$/;"	s	union:__anon904f0f38010a
+__anon904f0f380508	kernel/mm/page_table.h	/^	struct {$/;"	s	union:__anon904f0f38010a
+__anon904f0f380608	kernel/mm/page_table.h	/^typedef struct {$/;"	s
+__for_each_in_list_safe	kernel/common/list.h	/^#define __for_each_in_list_safe(/;"	d
+__func__	tests/include/minunit.h	/^#define __func__ /;"	d
+__has_include	tests/mm/buddy/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#  define __has_include(/;"	d	file:
+__has_include	tests/mm/page_table/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#  define __has_include(/;"	d	file:
+_alloc_in_slab	kernel/mm/slab.c	/^static void *_alloc_in_slab(slab_header_t * slab_header, int order)$/;"	f	typeref:typename:void *	file:
+_alloc_in_slab_nolock	kernel/mm/slab.c	/^static void *_alloc_in_slab_nolock(slab_header_t * slab_header, int order)$/;"	f	typeref:typename:void *	file:
+all	Makefile	/^all: build$/;"	t
+all	tests/mm/buddy/Makefile	/^all: cmake_check_build_system$/;"	t
+all	tests/mm/page_table/Makefile	/^all: cmake_check_build_system$/;"	t
+alloc_in_slab	kernel/mm/slab.c	/^void *alloc_in_slab(u64 size)$/;"	f	typeref:typename:void *
+alloc_slab_memory	kernel/mm/slab.c	/^static void *alloc_slab_memory(u64 size)$/;"	f	typeref:typename:void *	file:
+allocated	kernel/mm/buddy.h	/^	int allocated;$/;"	m	struct:page	typeref:typename:int
+atomic_cnt	kernel/common/types.h	/^typedef u64 atomic_cnt;$/;"	t	typeref:typename:u64
+attr_index	kernel/mm/page_table.h	/^		u64 is_valid:1, is_page:1, attr_index:3,	\/\/ Memory attributes index$/;"	m	struct:__anon904f0f38010a::__anon904f0f380508	typeref:typename:u64:3
+attr_index	kernel/mm/page_table.h	/^		u64 is_valid:1, is_table:1, attr_index:3,	\/\/ Memory attributes index$/;"	m	struct:__anon904f0f38010a::__anon904f0f380308	typeref:typename:u64:3
+attr_index	kernel/mm/page_table.h	/^		u64 is_valid:1, is_table:1, attr_index:3,	\/\/ Memory attributes index$/;"	m	struct:__anon904f0f38010a::__anon904f0f380408	typeref:typename:u64:3
+blkcnt_t	kernel/common/types.h	/^typedef s64 blkcnt_t;$/;"	t	typeref:typename:s64
+blksize_t	kernel/common/types.h	/^typedef s64 blksize_t;$/;"	t	typeref:typename:s64
+boot_cpu_stack	boot/init_c.c	/^char boot_cpu_stack[PLAT_CPU_NUMBER][INIT_STACK_SIZE] ALIGN(16);$/;"	v	typeref:typename:char[PLAT_CPU_NUMBER][INIT_STACK_SIZE]ALIGN (16)
+break_point	kernel/common/printk.c	/^void break_point()$/;"	f	typeref:typename:void
+buddy_free_pages	kernel/mm/buddy.c	/^void buddy_free_pages(struct phys_mem_pool *pool, struct page *page)$/;"	f	typeref:typename:void
+buddy_get_pages	kernel/mm/buddy.c	/^struct page *buddy_get_pages(struct phys_mem_pool *pool, u64 order)$/;"	f	typeref:struct:page *
+buddy_num_free_page	tests/mm/buddy/test_buddy.c	/^static unsigned long buddy_num_free_page(struct phys_mem_pool *zone)$/;"	f	typeref:typename:unsigned long	file:
+build	Makefile	/^build: FORCE$/;"	t
+c	kernel/common/printk.c	/^		char c;$/;"	m	union:simple_vsprintf::__anon4b3d0a56010a	typeref:typename:char	file:
+clean	Makefile	/^clean:$/;"	t
+clean	tests/mm/buddy/Makefile	/^clean:$/;"	t
+clean	tests/mm/page_table/Makefile	/^clean:$/;"	t
+clean/fast	tests/mm/buddy/Makefile	/^clean\/fast: clean$/;"	t
+clean/fast	tests/mm/page_table/Makefile	/^clean\/fast: clean$/;"	t
+clear_bss	boot/init_c.c	/^static void clear_bss(void)$/;"	f	typeref:typename:void	file:
+clear_bss_flag	boot/init_c.c	/^volatile u64 clear_bss_flag = NOT_BSS;$/;"	v	typeref:typename:volatile u64
+clock_t	kernel/common/types.h	/^typedef u64 clock_t;$/;"	t	typeref:typename:u64
+clockid_t	kernel/common/types.h	/^typedef u64 clockid_t;$/;"	t	typeref:typename:u64
+cmake_check_build_system	tests/mm/buddy/Makefile	/^cmake_check_build_system:$/;"	t
+cmake_check_build_system	tests/mm/page_table/Makefile	/^cmake_check_build_system:$/;"	t
+cmake_force	tests/mm/buddy/Makefile	/^cmake_force:$/;"	t
+cmake_force	tests/mm/page_table/Makefile	/^cmake_force:$/;"	t
+const	tests/mm/buddy/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^# define const$/;"	d	file:
+const	tests/mm/page_table/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^# define const$/;"	d	file:
+container_of	kernel/common/macro.h	/^#define container_of(/;"	d
+container_of_safe	kernel/common/macro.h	/^#define container_of_safe(/;"	d
+default_target	tests/mm/buddy/Makefile	/^default_target: all$/;"	t
+default_target	tests/mm/page_table/Makefile	/^default_target: all$/;"	t
+depend	tests/mm/buddy/Makefile	/^depend:$/;"	t
+depend	tests/mm/page_table/Makefile	/^depend:$/;"	t
+dev_t	kernel/common/types.h	/^typedef u64 dev_t;$/;"	t	typeref:typename:u64
+docker	Makefile	/^docker: FORCE	$/;"	t
+early_uart_init	boot/uart.c	/^void early_uart_init(void)$/;"	f	typeref:typename:void
+early_uart_lsr	boot/uart.c	/^unsigned int early_uart_lsr(void)$/;"	f	typeref:typename:unsigned int
+early_uart_send	boot/uart.c	/^static void early_uart_send(unsigned int c)$/;"	f	typeref:typename:void	file:
+edit_cache	tests/mm/buddy/Makefile	/^edit_cache:$/;"	t
+edit_cache	tests/mm/page_table/Makefile	/^edit_cache:$/;"	t
+edit_cache/fast	tests/mm/buddy/Makefile	/^edit_cache\/fast: edit_cache$/;"	t
+edit_cache/fast	tests/mm/page_table/Makefile	/^edit_cache\/fast: edit_cache$/;"	t
+ent	kernel/mm/page_table.h	/^	pte_t ent[PTP_ENTRIES];$/;"	m	struct:__anon904f0f380608	typeref:typename:pte_t[]
+false	kernel/common/types.h	/^#define false /;"	d
+flags	kernel/common/printk.c	/^enum flags {$/;"	g	file:
+flush_tlb	tests/mm/page_table/test_aarch64_page_table.c	/^void flush_tlb()$/;"	f	typeref:typename:void
+for_each_in_list	kernel/common/list.h	/^#define for_each_in_list(/;"	d
+for_each_in_list_safe	kernel/common/list.h	/^#define for_each_in_list_safe(/;"	d
+free_in_slab	kernel/mm/slab.c	/^void free_in_slab(void *addr)$/;"	f	typeref:typename:void
+free_list	kernel/mm/buddy.h	/^	struct list_head free_list;$/;"	m	struct:free_list	typeref:struct:list_head
+free_list	kernel/mm/buddy.h	/^struct free_list {$/;"	s
+free_list_head	kernel/mm/slab.h	/^	void *free_list_head;$/;"	m	struct:slab_header	typeref:typename:void *
+free_lists	kernel/mm/buddy.h	/^	struct free_list free_lists[BUDDY_MAX_ORDER];$/;"	m	struct:phys_mem_pool	typeref:struct:free_list[]
+free_page	tests/mm/page_table/test_aarch64_page_table.c	/^void free_page(void *page)$/;"	f	typeref:typename:void
+free_pages	kernel/mm/kmalloc.c	/^void free_pages(void *addr)$/;"	f	typeref:typename:void
+fsblkcnt_t	kernel/common/types.h	/^typedef u64 fsblkcnt_t;$/;"	t	typeref:typename:u64
+fsfilcnt_t	kernel/common/types.h	/^typedef u64 fsfilcnt_t;$/;"	t	typeref:typename:u64
+gdb	Makefile	/^gdb:$/;"	t
+gdbport	Makefile	/^gdbport:$/;"	t
+get_buddy_chunk	kernel/mm/buddy.c	/^static struct page *get_buddy_chunk(struct phys_mem_pool *pool,$/;"	f	typeref:struct:page *	file:
+get_free_mem_size_from_buddy	kernel/mm/buddy.c	/^u64 get_free_mem_size_from_buddy(struct phys_mem_pool * pool)$/;"	f	typeref:typename:u64
+get_next_ptp	kernel/mm/page_table.c	/^static int get_next_ptp(ptp_t * cur_ptp, u32 level, vaddr_t va,$/;"	f	typeref:typename:int	file:
+get_page_idx	tests/mm/buddy/test_buddy.c	/^static unsigned long get_page_idx(struct phys_mem_pool *zone, struct page *page)$/;"	f	typeref:typename:unsigned long	file:
+get_pages	kernel/mm/kmalloc.c	/^void *get_pages(int order)$/;"	f	typeref:typename:void *
+get_pages	tests/mm/page_table/test_aarch64_page_table.c	/^void *get_pages(int order)$/;"	f	typeref:typename:void *
+get_ttbr1	kernel/mm/mm.c	/^unsigned long get_ttbr1(void)$/;"	f	typeref:typename:unsigned long
+gid_t	kernel/common/types.h	/^typedef u64 gid_t;$/;"	t	typeref:typename:u64
+global_mem	kernel/mm/mm.c	/^struct phys_mem_pool global_mem;$/;"	v	typeref:struct:phys_mem_pool
+global_mem	tests/mm/buddy/test_buddy.c	/^struct phys_mem_pool global_mem;$/;"	v	typeref:struct:phys_mem_pool
+grade	Makefile	/^grade: build$/;"	t
+help	tests/mm/buddy/Makefile	/^help:$/;"	t
+help	tests/mm/page_table/Makefile	/^help:$/;"	t
+hhi	kernel/common/printk.c	/^		signed char hhi;$/;"	m	union:simple_vsprintf::__anon4b3d0a56010a	typeref:typename:signed char	file:
+hhu	kernel/common/printk.c	/^		unsigned char hhu;$/;"	m	union:simple_vsprintf::__anon4b3d0a56010a	typeref:typename:unsigned char	file:
+hi	kernel/common/printk.c	/^		short hi;$/;"	m	union:simple_vsprintf::__anon4b3d0a56010a	typeref:typename:short	file:
+home/move/Simon/Codes/os-debug/os-lab/chcore-lab/kernel/mm/buddy.c.i	tests/mm/buddy/Makefile	/^home\/move\/Simon\/Codes\/os-debug\/os-lab\/chcore-lab\/kernel\/mm\/buddy.c.i:$/;"	t
+home/move/Simon/Codes/os-debug/os-lab/chcore-lab/kernel/mm/buddy.c.o	tests/mm/buddy/Makefile	/^home\/move\/Simon\/Codes\/os-debug\/os-lab\/chcore-lab\/kernel\/mm\/buddy.c.o:$/;"	t
+home/move/Simon/Codes/os-debug/os-lab/chcore-lab/kernel/mm/buddy.c.s	tests/mm/buddy/Makefile	/^home\/move\/Simon\/Codes\/os-debug\/os-lab\/chcore-lab\/kernel\/mm\/buddy.c.s:$/;"	t
+home/move/Simon/Codes/os-debug/os-lab/chcore-lab/kernel/mm/buddy.i	tests/mm/buddy/Makefile	/^home\/move\/Simon\/Codes\/os-debug\/os-lab\/chcore-lab\/kernel\/mm\/buddy.i: home\/move\/Simon\//;"	t
+home/move/Simon/Codes/os-debug/os-lab/chcore-lab/kernel/mm/buddy.o	tests/mm/buddy/Makefile	/^home\/move\/Simon\/Codes\/os-debug\/os-lab\/chcore-lab\/kernel\/mm\/buddy.o: home\/move\/Simon\//;"	t
+home/move/Simon/Codes/os-debug/os-lab/chcore-lab/kernel/mm/buddy.s	tests/mm/buddy/Makefile	/^home\/move\/Simon\/Codes\/os-debug\/os-lab\/chcore-lab\/kernel\/mm\/buddy.s: home\/move\/Simon\//;"	t
+hu	kernel/common/printk.c	/^		unsigned short hu;$/;"	m	union:simple_vsprintf::__anon4b3d0a56010a	typeref:typename:unsigned short	file:
+i	kernel/common/printk.c	/^		int i;$/;"	m	union:simple_vsprintf::__anon4b3d0a56010a	typeref:typename:int	file:
+id_t	kernel/common/types.h	/^typedef u64 id_t;$/;"	t	typeref:typename:u64
+ignored	kernel/mm/page_table.h	/^		 ignored:1;$/;"	m	struct:__anon904f0f38010a::__anon904f0f380508	typeref:typename:u64:1
+ignored1	kernel/mm/page_table.h	/^		u64 is_valid:1, is_table:1, ignored1:10, next_table_addr:36, reserved:4, ignored2:7, PXNTable:/;"	m	struct:__anon904f0f38010a::__anon904f0f380208	typeref:typename:u64:10
+ignored2	kernel/mm/page_table.h	/^		u64 is_valid:1, is_table:1, ignored1:10, next_table_addr:36, reserved:4, ignored2:7, PXNTable:/;"	m	struct:__anon904f0f38010a::__anon904f0f380208	typeref:typename:u64:7
+info_arch	tests/mm/buddy/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";$/;"	v	typeref:typename:char const *
+info_arch	tests/mm/page_table/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";$/;"	v	typeref:typename:char const *
+info_compiler	tests/mm/buddy/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";$/;"	v	typeref:typename:char const *
+info_compiler	tests/mm/page_table/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";$/;"	v	typeref:typename:char const *
+info_cray	tests/mm/buddy/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^char const *info_cray = "INFO" ":" "compiler_wrapper[CrayPrgEnv]";$/;"	v	typeref:typename:char const *
+info_cray	tests/mm/page_table/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^char const *info_cray = "INFO" ":" "compiler_wrapper[CrayPrgEnv]";$/;"	v	typeref:typename:char const *
+info_language_extensions_default	tests/mm/buddy/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^const char* info_language_extensions_default = "INFO" ":" "extensions_default["$/;"	v	typeref:typename:const char *
+info_language_extensions_default	tests/mm/page_table/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^const char* info_language_extensions_default = "INFO" ":" "extensions_default["$/;"	v	typeref:typename:const char *
+info_language_standard_default	tests/mm/buddy/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^const char* info_language_standard_default =$/;"	v	typeref:typename:const char *
+info_language_standard_default	tests/mm/page_table/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^const char* info_language_standard_default =$/;"	v	typeref:typename:const char *
+info_platform	tests/mm/buddy/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";$/;"	v	typeref:typename:char const *
+info_platform	tests/mm/page_table/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";$/;"	v	typeref:typename:char const *
+info_simulate	tests/mm/buddy/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^char const* info_simulate = "INFO" ":" "simulate[" SIMULATE_ID "]";$/;"	v	typeref:typename:char const *
+info_simulate	tests/mm/page_table/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^char const* info_simulate = "INFO" ":" "simulate[" SIMULATE_ID "]";$/;"	v	typeref:typename:char const *
+info_simulate_version	tests/mm/buddy/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^char const info_simulate_version[] = {$/;"	v	typeref:typename:char const[]
+info_simulate_version	tests/mm/page_table/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^char const info_simulate_version[] = {$/;"	v	typeref:typename:char const[]
+info_version	tests/mm/buddy/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^char const info_version[] = {$/;"	v	typeref:typename:char const[]
+info_version	tests/mm/buddy/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^char const* info_version = "INFO" ":" "compiler_version[" COMPILER_VERSION "]";$/;"	v	typeref:typename:char const *
+info_version	tests/mm/page_table/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^char const info_version[] = {$/;"	v	typeref:typename:char const[]
+info_version	tests/mm/page_table/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^char const* info_version = "INFO" ":" "compiler_version[" COMPILER_VERSION "]";$/;"	v	typeref:typename:char const *
+info_version_internal	tests/mm/buddy/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^char const info_version_internal[] = {$/;"	v	typeref:typename:char const[]
+info_version_internal	tests/mm/buddy/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^char const* info_version_internal = "INFO" ":" "compiler_version_internal[" COMPILER_VERSION_INT/;"	v	typeref:typename:char const *
+info_version_internal	tests/mm/page_table/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^char const info_version_internal[] = {$/;"	v	typeref:typename:char const[]
+info_version_internal	tests/mm/page_table/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^char const* info_version_internal = "INFO" ":" "compiler_version_internal[" COMPILER_VERSION_INT/;"	v	typeref:typename:char const *
+init_boot_pt	boot/mmu.c	/^void init_boot_pt(void)$/;"	f	typeref:typename:void
+init_buddy	kernel/mm/buddy.c	/^void init_buddy(struct phys_mem_pool *pool, struct page *start_page,$/;"	f	typeref:typename:void
+init_c	boot/init_c.c	/^void init_c(void)$/;"	f	typeref:typename:void
+init_list_head	kernel/common/list.h	/^static inline void init_list_head(struct list_head *list)$/;"	f	typeref:typename:void
+init_slab	kernel/mm/slab.c	/^void init_slab()$/;"	f	typeref:typename:void
+init_slab_cache	kernel/mm/slab.c	/^static slab_header_t *init_slab_cache(int order, int size)$/;"	f	typeref:typename:slab_header_t *	file:
+ino_t	kernel/common/types.h	/^typedef u64 ino_t;$/;"	t	typeref:typename:u64
+is_page	kernel/mm/page_table.h	/^		u64 is_valid:1, is_page:1, attr_index:3,	\/\/ Memory attributes index$/;"	m	struct:__anon904f0f38010a::__anon904f0f380508	typeref:typename:u64:1
+is_table	kernel/mm/page_table.h	/^		u64 is_valid:1, is_table:1, attr_index:3,	\/\/ Memory attributes index$/;"	m	struct:__anon904f0f38010a::__anon904f0f380308	typeref:typename:u64:1
+is_table	kernel/mm/page_table.h	/^		u64 is_valid:1, is_table:1, attr_index:3,	\/\/ Memory attributes index$/;"	m	struct:__anon904f0f38010a::__anon904f0f380408	typeref:typename:u64:1
+is_table	kernel/mm/page_table.h	/^		u64 is_valid:1, is_table:1, ignored1:10, next_table_addr:36, reserved:4, ignored2:7, PXNTable:/;"	m	struct:__anon904f0f38010a::__anon904f0f380208	typeref:typename:u64:1
+is_user_addr	kernel/common/mm.h	/^static inline bool is_user_addr(vaddr_t vaddr)$/;"	f	typeref:typename:bool
+is_user_addr_range	kernel/common/mm.h	/^static inline bool is_user_addr_range(vaddr_t vaddr, size_t len)$/;"	f	typeref:typename:bool
+is_valid	kernel/mm/page_table.h	/^		u64 is_valid:1, is_page:1, attr_index:3,	\/\/ Memory attributes index$/;"	m	struct:__anon904f0f38010a::__anon904f0f380508	typeref:typename:u64:1
+is_valid	kernel/mm/page_table.h	/^		u64 is_valid:1, is_table:1, attr_index:3,	\/\/ Memory attributes index$/;"	m	struct:__anon904f0f38010a::__anon904f0f380308	typeref:typename:u64:1
+is_valid	kernel/mm/page_table.h	/^		u64 is_valid:1, is_table:1, attr_index:3,	\/\/ Memory attributes index$/;"	m	struct:__anon904f0f38010a::__anon904f0f380408	typeref:typename:u64:1
+is_valid	kernel/mm/page_table.h	/^		u64 is_valid:1, is_table:1, ignored1:10, next_table_addr:36, reserved:4, ignored2:7, PXNTable:/;"	m	struct:__anon904f0f38010a::__anon904f0f380208	typeref:typename:u64:1
+kdebug	kernel/common/kprint.h	/^#define kdebug(/;"	d
+kernel_space_check	kernel/mm/mm.c	/^void kernel_space_check(void)$/;"	f	typeref:typename:void
+key_t	kernel/common/types.h	/^typedef u64 key_t;$/;"	t	typeref:typename:u64
+kfree	kernel/mm/kmalloc.c	/^void kfree(void *ptr)$/;"	f	typeref:typename:void
+kinfo	kernel/common/kprint.h	/^#define kinfo(/;"	d
+kmalloc	kernel/mm/kmalloc.c	/^void *kmalloc(size_t size)$/;"	f	typeref:typename:void *
+kwarn	kernel/common/kprint.h	/^#define kwarn(/;"	d
+kzalloc	kernel/mm/kmalloc.c	/^void *kzalloc(size_t size)$/;"	f	typeref:typename:void *
+l1_block	kernel/mm/page_table.h	/^	} l1_block;$/;"	m	union:__anon904f0f38010a	typeref:struct:__anon904f0f38010a::__anon904f0f380308
+l2_block	kernel/mm/page_table.h	/^	} l2_block;$/;"	m	union:__anon904f0f38010a	typeref:struct:__anon904f0f38010a::__anon904f0f380408
+l3_page	kernel/mm/page_table.h	/^	} l3_page;$/;"	m	union:__anon904f0f38010a	typeref:struct:__anon904f0f38010a::__anon904f0f380508
+lcov	tests/mm/buddy/Makefile	/^lcov: cmake_check_build_system$/;"	t
+lcov	tests/mm/page_table/Makefile	/^lcov: cmake_check_build_system$/;"	t
+lcov/fast	tests/mm/buddy/Makefile	/^lcov\/fast:$/;"	t
+lcov/fast	tests/mm/page_table/Makefile	/^lcov\/fast:$/;"	t
+li	kernel/common/printk.c	/^		long li;$/;"	m	union:simple_vsprintf::__anon4b3d0a56010a	typeref:typename:long	file:
+likely	kernel/common/macro.h	/^#define likely(/;"	d
+list_add	kernel/common/list.h	/^static inline void list_add(struct list_head *new, struct list_head *head)$/;"	f	typeref:typename:void
+list_append	kernel/common/list.h	/^static inline void list_append(struct list_head *new, struct list_head *head)$/;"	f	typeref:typename:void
+list_del	kernel/common/list.h	/^static inline void list_del(struct list_head *node)$/;"	f	typeref:typename:void
+list_empty	kernel/common/list.h	/^static inline bool list_empty(struct list_head *head)$/;"	f	typeref:typename:bool
+list_entry	kernel/common/list.h	/^#define list_entry(/;"	d
+list_head	kernel/common/list.h	/^struct list_head {$/;"	s
+lli	kernel/common/printk.c	/^		long long lli;$/;"	m	union:simple_vsprintf::__anon4b3d0a56010a	typeref:typename:long long	file:
+llu	kernel/common/printk.c	/^		unsigned long long llu;$/;"	m	union:simple_vsprintf::__anon4b3d0a56010a	typeref:typename:unsigned long long	file:
+lu	kernel/common/printk.c	/^		unsigned long lu;$/;"	m	union:simple_vsprintf::__anon4b3d0a56010a	typeref:typename:unsigned long	file:
+main	kernel/main.c	/^void main(void *addr)$/;"	f	typeref:typename:void
+main	tests/mm/buddy/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^int main(argc, argv) int argc; char *argv[];$/;"	f
+main	tests/mm/buddy/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^void main() {}$/;"	f	typeref:typename:void
+main	tests/mm/buddy/test_buddy.c	/^int main(int argc, char *argv[])$/;"	f	typeref:typename:int
+main	tests/mm/page_table/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^int main(argc, argv) int argc; char *argv[];$/;"	f
+main	tests/mm/page_table/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^void main() {}$/;"	f	typeref:typename:void
+main	tests/mm/page_table/test_aarch64_page_table.c	/^int main(int argc, char *argv[])$/;"	f	typeref:typename:int
+map_kernel_space	kernel/mm/mm.c	/^void map_kernel_space(vaddr_t va, paddr_t pa, size_t len)$/;"	f	typeref:typename:void
+map_range_in_pgtbl	kernel/mm/page_table.c	/^int map_range_in_pgtbl(vaddr_t * pgtbl, vaddr_t va, paddr_t pa,$/;"	f	typeref:typename:int
+memcpy	kernel/common/util.h	/^static inline void memcpy(void *dst, const void *src, size_t size)$/;"	f	typeref:typename:void
+memset	kernel/common/util.h	/^static inline void memset(void *dst, char ch, size_t size)$/;"	f	typeref:typename:void
+merge_page	kernel/mm/buddy.c	/^static struct page *merge_page(struct phys_mem_pool *pool, struct page *page)$/;"	f	typeref:struct:page *	file:
+minunit_assert	tests/include/minunit.h	/^	static int minunit_assert = 0;$/;"	v	typeref:typename:int
+minunit_fail	tests/include/minunit.h	/^	static int minunit_fail = 0;$/;"	v	typeref:typename:int
+minunit_last_message	tests/include/minunit.h	/^	static char minunit_last_message[MINUNIT_MESSAGE_LEN];$/;"	v	typeref:typename:char[]
+minunit_proc_timer	tests/include/minunit.h	/^	static double minunit_proc_timer = 0;$/;"	v	typeref:typename:double
+minunit_real_timer	tests/include/minunit.h	/^	static double minunit_real_timer = 0;$/;"	v	typeref:typename:double
+minunit_run	tests/include/minunit.h	/^	static int minunit_run = 0;$/;"	v	typeref:typename:int
+minunit_setup	tests/include/minunit.h	/^	static void (*minunit_setup) (void) = NULL;$/;"	v	typeref:typename:void (*)(void)
+minunit_status	tests/include/minunit.h	/^	static int minunit_status = 0;$/;"	v	typeref:typename:int
+minunit_teardown	tests/include/minunit.h	/^	static void (*minunit_teardown) (void) = NULL;$/;"	v	typeref:typename:void (*)(void)
+mm_init	kernel/mm/mm.c	/^void mm_init(void)$/;"	f	typeref:typename:void
+mode_t	kernel/common/types.h	/^typedef u64 mode_t;$/;"	t	typeref:typename:u64
+mu_assert	tests/include/minunit.h	/^#define mu_assert(/;"	d
+mu_assert_double_eq	tests/include/minunit.h	/^#define mu_assert_double_eq(/;"	d
+mu_assert_int_eq	tests/include/minunit.h	/^#define mu_assert_int_eq(/;"	d
+mu_assert_string_eq	tests/include/minunit.h	/^#define mu_assert_string_eq(/;"	d
+mu_check	tests/include/minunit.h	/^#define mu_check(/;"	d
+mu_fail	tests/include/minunit.h	/^#define mu_fail(/;"	d
+mu_timer_cpu	tests/include/minunit.h	/^ *\/ static double mu_timer_cpu(void) {$/;"	f	typeref:typename:double
+mu_timer_real	tests/include/minunit.h	/^	static double mu_timer_real(void) {$/;"	f	typeref:typename:double
+nG	kernel/mm/page_table.h	/^		 nG:1,		\/\/ Not global bit$/;"	m	struct:__anon904f0f38010a::__anon904f0f380308	typeref:typename:u64:1
+nG	kernel/mm/page_table.h	/^		 nG:1,		\/\/ Not global bit$/;"	m	struct:__anon904f0f38010a::__anon904f0f380408	typeref:typename:u64:1
+nG	kernel/mm/page_table.h	/^		 nG:1,		\/\/ Not global bit$/;"	m	struct:__anon904f0f38010a::__anon904f0f380508	typeref:typename:u64:1
+nT	kernel/mm/page_table.h	/^		 reserved1:4, nT:1, reserved2:13, pfn:18, reserved3:2, GP:1, reserved4:1, DBM:1,	\/\/ Dirty bi/;"	m	struct:__anon904f0f38010a::__anon904f0f380308	typeref:typename:u64:1
+nT	kernel/mm/page_table.h	/^		 reserved1:4, nT:1, reserved2:4, pfn:27, reserved3:2, GP:1, reserved4:1, DBM:1,	\/\/ Dirty bit/;"	m	struct:__anon904f0f38010a::__anon904f0f380408	typeref:typename:u64:1
+nb_uart_recv	kernel/common/uart.c	/^u32 nb_uart_recv(void)$/;"	f	typeref:typename:u32
+next	kernel/common/list.h	/^	struct list_head *next;$/;"	m	struct:list_head	typeref:struct:list_head *
+next_container_of_safe	kernel/common/list.h	/^#define next_container_of_safe(/;"	d
+next_free	kernel/mm/slab.h	/^	void *next_free;$/;"	m	struct:slab_slot_list	typeref:typename:void *
+next_slab	kernel/mm/slab.h	/^	slab_header_t *next_slab;$/;"	m	struct:slab_header	typeref:typename:slab_header_t *
+next_table_addr	kernel/mm/page_table.h	/^		u64 is_valid:1, is_table:1, ignored1:10, next_table_addr:36, reserved:4, ignored2:7, PXNTable:/;"	m	struct:__anon904f0f38010a::__anon904f0f380208	typeref:typename:u64:36
+nlink_t	kernel/common/types.h	/^typedef u64 nlink_t;$/;"	t	typeref:typename:u64
+node	kernel/mm/buddy.h	/^	struct list_head node;$/;"	m	struct:page	typeref:struct:list_head
+nr_free	kernel/mm/buddy.h	/^	u64 nr_free;$/;"	m	struct:free_list	typeref:typename:u64
+off_t	kernel/common/types.h	/^typedef s64 off_t;$/;"	t	typeref:typename:s64
+offsetof	kernel/common/macro.h	/^#define offsetof(/;"	d
+order	kernel/mm/buddy.h	/^	int order;$/;"	m	struct:page	typeref:typename:int
+order	kernel/mm/slab.h	/^	int order;$/;"	m	struct:slab_header	typeref:typename:int
+order_to_size	kernel/mm/slab.c	/^static inline u64 order_to_size(u64 order)$/;"	f	typeref:typename:u64	file:
+p	kernel/common/printk.c	/^		void *p;$/;"	m	union:simple_vsprintf::__anon4b3d0a56010a	typeref:typename:void *	file:
+pad_to_cache_line	kernel/common/types.h	/^#define pad_to_cache_line(/;"	d
+paddr_t	kernel/common/types.h	/^typedef u64 paddr_t;$/;"	t	typeref:typename:u64
+page	kernel/mm/buddy.h	/^struct page {$/;"	s
+page_metadata	kernel/mm/buddy.h	/^	struct page *page_metadata;$/;"	m	struct:phys_mem_pool	typeref:struct:page *
+page_to_virt	kernel/mm/buddy.c	/^void *page_to_virt(struct phys_mem_pool *pool, struct page *page)$/;"	f	typeref:typename:void *
+pfn	kernel/mm/page_table.h	/^		 pfn:36, reserved:3, DBM:1,	\/\/ Dirty bit modifier$/;"	m	struct:__anon904f0f38010a::__anon904f0f380508	typeref:typename:u64:36
+pfn	kernel/mm/page_table.h	/^		 reserved1:4, nT:1, reserved2:13, pfn:18, reserved3:2, GP:1, reserved4:1, DBM:1,	\/\/ Dirty bi/;"	m	struct:__anon904f0f38010a::__anon904f0f380308	typeref:typename:u64:18
+pfn	kernel/mm/page_table.h	/^		 reserved1:4, nT:1, reserved2:4, pfn:27, reserved3:2, GP:1, reserved4:1, DBM:1,	\/\/ Dirty bit/;"	m	struct:__anon904f0f38010a::__anon904f0f380408	typeref:typename:u64:27
+phys_mem_pool	kernel/mm/buddy.h	/^struct phys_mem_pool {$/;"	s
+phys_to_virt	kernel/common/mmu.h	/^#define phys_to_virt(/;"	d
+phys_to_virt	tests/mm/page_table/test_aarch64_page_table.c	/^#define phys_to_virt(/;"	d	file:
+pid_t	kernel/common/types.h	/^typedef s64 pid_t;$/;"	t	typeref:typename:s64
+pool_mem_size	kernel/mm/buddy.h	/^	u64 pool_mem_size;$/;"	m	struct:phys_mem_pool	typeref:typename:u64
+pool_phys_page_num	kernel/mm/buddy.h	/^	u64 pool_phys_page_num;$/;"	m	struct:phys_mem_pool	typeref:typename:u64
+pool_start_addr	kernel/mm/buddy.h	/^	u64 pool_start_addr;$/;"	m	struct:phys_mem_pool	typeref:typename:u64
+preinstall	tests/mm/buddy/Makefile	/^preinstall: all$/;"	t
+preinstall	tests/mm/page_table/Makefile	/^preinstall: all$/;"	t
+preinstall/fast	tests/mm/buddy/Makefile	/^preinstall\/fast:$/;"	t
+preinstall/fast	tests/mm/page_table/Makefile	/^preinstall\/fast:$/;"	t
+prev	kernel/common/list.h	/^	struct list_head *prev;$/;"	m	struct:list_head	typeref:struct:list_head *
+printk	kernel/common/printk.c	/^void printk(const char *fmt, ...)$/;"	f	typeref:typename:void
+printk	tests/mm/buddy/test_buddy.c	/^void printk(const char *fmt, ...)$/;"	f	typeref:typename:void
+printk	tests/mm/page_table/test_aarch64_page_table.c	/^void printk(const char *fmt, ...)$/;"	f	typeref:typename:void
+printk_write_num	kernel/common/printk.c	/^static int printk_write_num(char **out, long long i, int base, int sign,$/;"	f	typeref:typename:int	file:
+prints	kernel/common/printk.c	/^static int prints(char **out, const char *string, int width, int flags)$/;"	f	typeref:typename:int	file:
+pte	kernel/mm/page_table.h	/^	u64 pte;$/;"	m	union:__anon904f0f38010a	typeref:typename:u64
+pte_t	kernel/mm/page_table.h	/^} pte_t;$/;"	t	typeref:union:__anon904f0f38010a
+pthread_attr_t	kernel/common/types.h	/^typedef u64 pthread_attr_t;$/;"	t	typeref:typename:u64
+pthread_barrier_t	kernel/common/types.h	/^typedef u64 pthread_barrier_t;$/;"	t	typeref:typename:u64
+pthread_barrierattr_t	kernel/common/types.h	/^typedef u64 pthread_barrierattr_t;$/;"	t	typeref:typename:u64
+pthread_cond_t	kernel/common/types.h	/^typedef u64 pthread_cond_t;$/;"	t	typeref:typename:u64
+pthread_condattr_t	kernel/common/types.h	/^typedef u64 pthread_condattr_t;$/;"	t	typeref:typename:u64
+pthread_key_t	kernel/common/types.h	/^typedef u64 pthread_key_t;$/;"	t	typeref:typename:u64
+pthread_mutex_t	kernel/common/types.h	/^typedef u64 pthread_mutex_t;$/;"	t	typeref:typename:u64
+pthread_mutexattr_t	kernel/common/types.h	/^typedef u64 pthread_mutexattr_t;$/;"	t	typeref:typename:u64
+pthread_once_t	kernel/common/types.h	/^typedef u64 pthread_once_t;$/;"	t	typeref:typename:u64
+pthread_rwlock_t	kernel/common/types.h	/^typedef u64 pthread_rwlock_t;$/;"	t	typeref:typename:u64
+pthread_rwlockattr_t	kernel/common/types.h	/^typedef u64 pthread_rwlockattr_t;$/;"	t	typeref:typename:u64
+pthread_spinlock_t	kernel/common/types.h	/^typedef u64 pthread_spinlock_t;$/;"	t	typeref:typename:u64
+pthread_t	kernel/common/types.h	/^typedef u64 pthread_t;$/;"	t	typeref:typename:u64
+ptp_t	kernel/mm/page_table.h	/^} ptp_t;$/;"	t	typeref:struct:__anon904f0f380608
+qemu	Makefile	/^qemu: $(IMAGES) $/;"	t
+qemu-gdb	Makefile	/^qemu-gdb: $(IMAGES)$/;"	t
+qnxnto	tests/mm/buddy/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^char const* qnxnto = "INFO" ":" "qnxnto[]";$/;"	v	typeref:typename:char const *
+qnxnto	tests/mm/page_table/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^char const* qnxnto = "INFO" ":" "qnxnto[]";$/;"	v	typeref:typename:char const *
+query_in_pgtbl	kernel/mm/page_table.c	/^int query_in_pgtbl(vaddr_t * pgtbl, vaddr_t va, paddr_t * pa, pte_t ** entry)$/;"	f	typeref:typename:int
+rand_addr	tests/mm/page_table/test_aarch64_page_table.c	/^static inline u64 rand_addr(u64 max)$/;"	f	typeref:typename:u64	file:
+rand_page_addr	tests/mm/page_table/test_aarch64_page_table.c	/^static inline u64 rand_page_addr(u64 max)$/;"	f	typeref:typename:u64	file:
+read_fp	kernel/monitor.c	/^u64 read_fp()$/;"	f	typeref:typename:u64	file:
+rebuild_cache	tests/mm/buddy/Makefile	/^rebuild_cache:$/;"	t
+rebuild_cache	tests/mm/page_table/Makefile	/^rebuild_cache:$/;"	t
+rebuild_cache/fast	tests/mm/buddy/Makefile	/^rebuild_cache\/fast: rebuild_cache$/;"	t
+rebuild_cache/fast	tests/mm/page_table/Makefile	/^rebuild_cache\/fast: rebuild_cache$/;"	t
+reg_type	kernel/common/registers.h	/^enum reg_type {$/;"	g
+reserved	kernel/mm/page_table.h	/^		 pfn:36, reserved:3, DBM:1,	\/\/ Dirty bit modifier$/;"	m	struct:__anon904f0f38010a::__anon904f0f380508	typeref:typename:u64:3
+reserved	kernel/mm/page_table.h	/^		u64 is_valid:1, is_table:1, ignored1:10, next_table_addr:36, reserved:4, ignored2:7, PXNTable:/;"	m	struct:__anon904f0f38010a::__anon904f0f380208	typeref:typename:u64:4
+reserved1	kernel/mm/page_table.h	/^		 reserved1:4, nT:1, reserved2:13, pfn:18, reserved3:2, GP:1, reserved4:1, DBM:1,	\/\/ Dirty bi/;"	m	struct:__anon904f0f38010a::__anon904f0f380308	typeref:typename:u64:4
+reserved1	kernel/mm/page_table.h	/^		 reserved1:4, nT:1, reserved2:4, pfn:27, reserved3:2, GP:1, reserved4:1, DBM:1,	\/\/ Dirty bit/;"	m	struct:__anon904f0f38010a::__anon904f0f380408	typeref:typename:u64:4
+reserved2	kernel/mm/page_table.h	/^		 reserved1:4, nT:1, reserved2:13, pfn:18, reserved3:2, GP:1, reserved4:1, DBM:1,	\/\/ Dirty bi/;"	m	struct:__anon904f0f38010a::__anon904f0f380308	typeref:typename:u64:13
+reserved2	kernel/mm/page_table.h	/^		 reserved1:4, nT:1, reserved2:4, pfn:27, reserved3:2, GP:1, reserved4:1, DBM:1,	\/\/ Dirty bit/;"	m	struct:__anon904f0f38010a::__anon904f0f380408	typeref:typename:u64:4
+reserved3	kernel/mm/page_table.h	/^		 reserved1:4, nT:1, reserved2:13, pfn:18, reserved3:2, GP:1, reserved4:1, DBM:1,	\/\/ Dirty bi/;"	m	struct:__anon904f0f38010a::__anon904f0f380308	typeref:typename:u64:2
+reserved3	kernel/mm/page_table.h	/^		 reserved1:4, nT:1, reserved2:4, pfn:27, reserved3:2, GP:1, reserved4:1, DBM:1,	\/\/ Dirty bit/;"	m	struct:__anon904f0f38010a::__anon904f0f380408	typeref:typename:u64:2
+reserved4	kernel/mm/page_table.h	/^		 reserved1:4, nT:1, reserved2:13, pfn:18, reserved3:2, GP:1, reserved4:1, DBM:1,	\/\/ Dirty bi/;"	m	struct:__anon904f0f38010a::__anon904f0f380308	typeref:typename:u64:1
+reserved4	kernel/mm/page_table.h	/^		 reserved1:4, nT:1, reserved2:4, pfn:27, reserved3:2, GP:1, reserved4:1, DBM:1,	\/\/ Dirty bit/;"	m	struct:__anon904f0f38010a::__anon904f0f380408	typeref:typename:u64:1
+s	kernel/common/printk.c	/^		char *s;$/;"	m	union:simple_vsprintf::__anon4b3d0a56010a	typeref:typename:char *	file:
+s16	kernel/common/types.h	/^typedef short s16;$/;"	t	typeref:typename:short
+s32	kernel/common/types.h	/^typedef int s32;$/;"	t	typeref:typename:int
+s64	kernel/common/types.h	/^typedef long long s64;$/;"	t	typeref:typename:long long
+s64	tests/include/minunit.h	/^	typedef long long s64;$/;"	t	typeref:typename:long long
+s8	kernel/common/types.h	/^typedef signed char s8;$/;"	t	typeref:typename:signed char
+secondary_boot_flag	boot/init_c.c	/^long secondary_boot_flag[PLAT_CPU_NUMBER] = { NOT_BSS };$/;"	v	typeref:typename:long[]
+set_page_table	kernel/mm/page_table.c	/^void set_page_table(paddr_t pgtbl)$/;"	f	typeref:typename:void
+set_pte_flags	kernel/mm/page_table.c	/^static int set_pte_flags(pte_t * entry, vmr_prop_t flags, int kind)$/;"	f	typeref:typename:int	file:
+set_ttbr0_el1	tests/mm/page_table/test_aarch64_page_table.c	/^void set_ttbr0_el1(paddr_t p)$/;"	f	typeref:typename:void
+simple_outputchar	kernel/common/printk.c	/^static void simple_outputchar(char **str, char c)$/;"	f	typeref:typename:void	file:
+simple_vsprintf	kernel/common/printk.c	/^static int simple_vsprintf(char **out, const char *format, va_list ap)$/;"	f	typeref:typename:int	file:
+size_t	kernel/common/types.h	/^typedef u64 size_t;$/;"	t	typeref:typename:u64
+size_to_order	kernel/mm/slab.c	/^static inline u64 size_to_order(u64 size)$/;"	f	typeref:typename:u64	file:
+size_to_page_order	kernel/mm/kmalloc.c	/^u64 size_to_page_order(u64 size)$/;"	f	typeref:typename:u64
+slab	kernel/mm/buddy.h	/^	void *slab;$/;"	m	struct:page	typeref:typename:void *
+slab_header	kernel/mm/slab.h	/^struct slab_header {$/;"	s
+slab_header_t	kernel/mm/slab.h	/^typedef struct slab_header slab_header_t;$/;"	t	typeref:struct:slab_header
+slab_slot_list	kernel/mm/slab.h	/^struct slab_slot_list {$/;"	s
+slab_slot_list_t	kernel/mm/slab.h	/^typedef struct slab_slot_list slab_slot_list_t;$/;"	t	typeref:struct:slab_slot_list
+slabs	kernel/mm/slab.c	/^slab_header_t *slabs[SLAB_MAX_ORDER + 1];$/;"	v	typeref:typename:slab_header_t * []
+snprintf	tests/include/minunit.h	/^#define snprintf /;"	d
+soft_reserved	kernel/mm/page_table.h	/^		 soft_reserved:4, PBHA:4,	\/\/ Page based hardware attributes$/;"	m	struct:__anon904f0f38010a::__anon904f0f380508	typeref:typename:u64:4
+soft_reserved	kernel/mm/page_table.h	/^		 soft_reserved:4, PBHA:4;	\/\/ Page based hardware attributes$/;"	m	struct:__anon904f0f38010a::__anon904f0f380308	typeref:typename:u64:4
+soft_reserved	kernel/mm/page_table.h	/^		 soft_reserved:4, PBHA:4;	\/\/ Page based hardware attributes$/;"	m	struct:__anon904f0f38010a::__anon904f0f380408	typeref:typename:u64:4
+split_page	kernel/mm/buddy.c	/^static struct page *split_page(struct phys_mem_pool *pool, u64 order,$/;"	f	typeref:struct:page *	file:
+ssize_t	kernel/common/types.h	/^typedef s64 ssize_t;$/;"	t	typeref:typename:s64
+stack_backtrace	kernel/monitor.c	/^int stack_backtrace()$/;"	f	typeref:typename:int
+stack_test	kernel/main.c	/^void stack_test(long x)$/;"	f	typeref:typename:void
+strcmp	kernel/common/util.h	/^static inline int strcmp(const char *src, const char *dst)$/;"	f	typeref:typename:int
+strlen	kernel/common/util.h	/^static inline size_t strlen(const char *src)$/;"	f	typeref:typename:size_t
+strncmp	kernel/common/util.h	/^static inline int strncmp(const char *src, const char *dst, size_t size)$/;"	f	typeref:typename:int
+suseconds_t	kernel/common/types.h	/^typedef s64 suseconds_t;$/;"	t	typeref:typename:s64
+table	kernel/mm/page_table.h	/^	} table;$/;"	m	union:__anon904f0f38010a	typeref:struct:__anon904f0f38010a::__anon904f0f380208
+test	tests/mm/buddy/Makefile	/^test:$/;"	t
+test	tests/mm/page_table/Makefile	/^test:$/;"	t
+test/fast	tests/mm/buddy/Makefile	/^test\/fast: test$/;"	t
+test/fast	tests/mm/page_table/Makefile	/^test\/fast: test$/;"	t
+test_aarch64_page_table	tests/mm/page_table/Makefile	/^test_aarch64_page_table: cmake_check_build_system$/;"	t
+test_aarch64_page_table.c.i	tests/mm/page_table/Makefile	/^test_aarch64_page_table.c.i:$/;"	t
+test_aarch64_page_table.c.o	tests/mm/page_table/Makefile	/^test_aarch64_page_table.c.o:$/;"	t
+test_aarch64_page_table.c.s	tests/mm/page_table/Makefile	/^test_aarch64_page_table.c.s:$/;"	t
+test_aarch64_page_table.i	tests/mm/page_table/Makefile	/^test_aarch64_page_table.i: test_aarch64_page_table.c.i$/;"	t
+test_aarch64_page_table.o	tests/mm/page_table/Makefile	/^test_aarch64_page_table.o: test_aarch64_page_table.c.o$/;"	t
+test_aarch64_page_table.s	tests/mm/page_table/Makefile	/^test_aarch64_page_table.s: test_aarch64_page_table.c.s$/;"	t
+test_aarch64_page_table/fast	tests/mm/page_table/Makefile	/^test_aarch64_page_table\/fast:$/;"	t
+test_alloc	tests/mm/buddy/test_buddy.c	/^static void test_alloc(struct phys_mem_pool *zone, long n, long order)$/;"	f	typeref:typename:void	file:
+test_buddy	tests/mm/buddy/Makefile	/^test_buddy: cmake_check_build_system$/;"	t
+test_buddy	tests/mm/buddy/test_buddy.c	/^void test_buddy(void)$/;"	f	typeref:typename:void
+test_buddy.c.i	tests/mm/buddy/Makefile	/^test_buddy.c.i:$/;"	t
+test_buddy.c.o	tests/mm/buddy/Makefile	/^test_buddy.c.o:$/;"	t
+test_buddy.c.s	tests/mm/buddy/Makefile	/^test_buddy.c.s:$/;"	t
+test_buddy.i	tests/mm/buddy/Makefile	/^test_buddy.i: test_buddy.c.i$/;"	t
+test_buddy.o	tests/mm/buddy/Makefile	/^test_buddy.o: test_buddy.c.o$/;"	t
+test_buddy.s	tests/mm/buddy/Makefile	/^test_buddy.s: test_buddy.c.s$/;"	t
+test_buddy/fast	tests/mm/buddy/Makefile	/^test_buddy\/fast:$/;"	t
+test_page_mappings	tests/mm/page_table/test_aarch64_page_table.c	/^void test_page_mappings(vaddr_t * pgtbl, paddr_t * pas,$/;"	f	typeref:typename:void
+time_t	kernel/common/types.h	/^typedef u64 time_t;$/;"	t	typeref:typename:u64
+timer_t	kernel/common/types.h	/^typedef u64 timer_t;$/;"	t	typeref:typename:u64
+trace_attr_t	kernel/common/types.h	/^typedef u64 trace_attr_t;$/;"	t	typeref:typename:u64
+trace_event_id_t	kernel/common/types.h	/^typedef u64 trace_event_id_t;$/;"	t	typeref:typename:u64
+trace_event_set_t	kernel/common/types.h	/^typedef u64 trace_event_set_t;$/;"	t	typeref:typename:u64
+trace_id_t	kernel/common/types.h	/^typedef u64 trace_id_t;$/;"	t	typeref:typename:u64
+true	kernel/common/types.h	/^#define true /;"	d
+u	kernel/common/printk.c	/^		unsigned int u;$/;"	m	union:simple_vsprintf::__anon4b3d0a56010a	typeref:typename:unsigned int	file:
+u16	kernel/common/types.h	/^typedef unsigned short u16;$/;"	t	typeref:typename:unsigned short
+u32	boot/mmu.c	/^typedef unsigned int u32;$/;"	t	typeref:typename:unsigned int	file:
+u32	kernel/common/types.h	/^typedef unsigned int u32;$/;"	t	typeref:typename:unsigned int
+u64	boot/init_c.c	/^typedef unsigned long u64;$/;"	t	typeref:typename:unsigned long	file:
+u64	boot/mmu.c	/^typedef unsigned long u64;$/;"	t	typeref:typename:unsigned long	file:
+u64	kernel/common/types.h	/^typedef unsigned long long u64;$/;"	t	typeref:typename:unsigned long long
+u8	kernel/common/types.h	/^typedef unsigned char u8;$/;"	t	typeref:typename:unsigned char
+uart_init	kernel/common/uart.c	/^void uart_init(void)$/;"	f	typeref:typename:void
+uart_lsr	kernel/common/uart.c	/^u32 uart_lsr(void)$/;"	f	typeref:typename:u32
+uart_recv	kernel/common/uart.c	/^u32 uart_recv(void)$/;"	f	typeref:typename:u32
+uart_send	kernel/common/uart.c	/^void uart_send(u32 c)$/;"	f	typeref:typename:void
+uart_send_string	boot/uart.c	/^void uart_send_string(char *str)$/;"	f	typeref:typename:void
+uid_t	kernel/common/types.h	/^typedef u64 uid_t;$/;"	t	typeref:typename:u64
+unlikely	kernel/common/macro.h	/^#define unlikely(/;"	d
+unmap_range_in_pgtbl	kernel/mm/page_table.c	/^int unmap_range_in_pgtbl(vaddr_t * pgtbl, vaddr_t va, size_t len)$/;"	f	typeref:typename:int
+va_arg	kernel/common/printk.c	/^#define va_arg(/;"	d	file:
+va_copy	kernel/common/printk.c	/^#define va_copy(/;"	d	file:
+va_end	kernel/common/printk.c	/^#define va_end(/;"	d	file:
+va_list	kernel/common/printk.c	/^typedef __builtin_va_list va_list;$/;"	t	typeref:typename:__builtin_va_list	file:
+va_start	kernel/common/printk.c	/^#define va_start(/;"	d	file:
+vaddr_t	kernel/common/types.h	/^typedef u64 vaddr_t;$/;"	t	typeref:typename:u64
+valid_page_idx	tests/mm/buddy/test_buddy.c	/^static void valid_page_idx(struct phys_mem_pool *zone, long idx)$/;"	f	typeref:typename:void	file:
+virt_to_page	kernel/mm/buddy.c	/^struct page *virt_to_page(struct phys_mem_pool *pool, void *addr)$/;"	f	typeref:struct:page *
+virt_to_phys	kernel/common/mmu.h	/^#define virt_to_phys(/;"	d
+virt_to_phys	tests/mm/page_table/test_aarch64_page_table.c	/^#define virt_to_phys(/;"	d	file:
+vmr_prop_t	kernel/common/mmu.h	/^typedef u64 vmr_prop_t;$/;"	t	typeref:typename:u64
+volatile	tests/mm/buddy/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^# define volatile$/;"	d	file:
+volatile	tests/mm/page_table/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^# define volatile$/;"	d	file:
