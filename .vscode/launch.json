@@ -47,5 +47,26 @@
                 },
             ]
         },
+        {
+            "name": "pte_debug",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/tests/mm/page_table/test_aarch64_page_table",
+            "targetArchitecture": "x86",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "Console": true,
+            "MIMode": "gdb",
+            "miDebuggerPath":"/usr/bin/gdb",
+            "setupCommands": [
+                {
+                    "description":"pretty print for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+            ]
+        },
     ]
 }

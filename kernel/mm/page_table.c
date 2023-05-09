@@ -113,6 +113,7 @@ static int get_next_ptp(ptp_t * cur_ptp, u32 level, vaddr_t va,
 	entry = &(cur_ptp->ent[index]);
 	if (IS_PTE_INVALID(entry->pte)) {
 		if (alloc == false) {
+			*pte = entry;
 			return -ENOMAPPING;
 		} else {
 			/* alloc a new page table page */
@@ -162,7 +163,35 @@ static int get_next_ptp(ptp_t * cur_ptp, u32 level, vaddr_t va,
 int query_in_pgtbl(vaddr_t * pgtbl, vaddr_t va, paddr_t * pa, pte_t ** entry)
 {
 	// <lab2>
-
+	int cur_level = 0;
+	paddr_t cur_pgtbl_paddr = virt_to_phys(pgtbl);
+	ptp_t *cur_ptp = (ptp_t *)cur_pgtbl_paddr;
+	ptp_t *next_ptp = cur_ptp;
+	pte_t *pte = NULL;
+	while(cur_level < 4) {
+		int ret = get_next_ptp(next_ptp, cur_level, va, &next_ptp, &pte, false);
+		if(ret < 0) {
+			return ret;
+		}
+		else if(ret == BLOCK_PTP) {
+			int block_offset = 21;
+			if(cur_level == 1) {
+				// L1 Block type
+				block_offset = 30;	// 1 GB Block
+			}
+			else if(cur_level == 2) {
+				block_offset = 21;  // 2 MB Block
+			}
+			u64 block_mask = ((1ULL << 48) - 1) & (~((1ULL << block_offset) - 1));		
+			*pa = ((pte->pte) & block_mask) | (va & ((1ULL << block_offset) - 1));
+			*entry = pte;
+			return 0;
+		}
+		cur_level++;
+	}
+	u64 pfn_mask = ((1ULL << 48) - 1) & (~((1ULL << PAGE_SHIFT) - 1));
+	*pa = ((pte->pte) & pfn_mask) | (va & ((1ULL << PAGE_SHIFT) - 1));
+	*entry = pte;
 	// </lab2>
 	return 0;
 }
@@ -182,11 +211,45 @@ int query_in_pgtbl(vaddr_t * pgtbl, vaddr_t va, paddr_t * pa, pte_t ** entry)
  * and it is convenient for you to call set_pte_flags to set the page
  * permission bit. Don't forget to call flush_tlb at the end of this function 
  */
+#define PTE_DEBUG
+#ifdef PTE_DEBUG
+ptp_t *ptp_debug[4] = {NULL, NULL, NULL, NULL};
+#endif
 int map_range_in_pgtbl(vaddr_t * pgtbl, vaddr_t va, paddr_t pa,
 		       size_t len, vmr_prop_t flags)
 {
 	// <lab2>
+	paddr_t cur_pgtbl_paddr = virt_to_phys(pgtbl);
+	ptp_t *cur_ptp = (ptp_t *)cur_pgtbl_paddr;
+	ptp_t *next_ptp = cur_ptp;
+	pte_t *pte = NULL;
+	int ptp_type = -1;
+	bool alloc_flag = true;
 
+	int total_map_pages = len / PAGE_SIZE;
+	if(len % PAGE_SIZE) {
+		total_map_pages += 1;
+	}
+	vaddr_t va_cur = 0;
+	paddr_t pa_cur = 0;
+	for(int cur_page_index = 0; cur_page_index < total_map_pages; cur_page_index++) {
+		va_cur = va + cur_page_index * PAGE_SIZE;
+		pa_cur = pa + cur_page_index * PAGE_SIZE;
+		for(int cur_level = 0; cur_level < 4; cur_level++) {
+			#ifdef PTE_DEBUG
+			ptp_debug[cur_level] = next_ptp;
+			#endif
+			if(cur_level == 3) {
+				alloc_flag = false;
+			}
+			ptp_type = get_next_ptp(next_ptp, cur_level, va_cur, &next_ptp, &pte, alloc_flag);
+		}
+	}
+	pte->l3_page.pfn = pa >> PAGE_SHIFT;
+	pte->l3_page.is_page = 1;
+	pte->l3_page.is_valid = 1;
+	set_pte_flags(pte, flags, USER_PTE);
+	flush_tlb();
 	// </lab2>
 	return 0;
 }
@@ -207,7 +270,33 @@ int map_range_in_pgtbl(vaddr_t * pgtbl, vaddr_t va, paddr_t pa,
 int unmap_range_in_pgtbl(vaddr_t * pgtbl, vaddr_t va, size_t len)
 {
 	// <lab2>
+	paddr_t cur_pgtbl_paddr = virt_to_phys(pgtbl);
+	ptp_t *cur_ptp = (ptp_t *)cur_pgtbl_paddr;
+	ptp_t *next_ptp = cur_ptp;
+	pte_t *pte = NULL;
+	int ptp_type = -1;
 
+	int total_map_pages = len / PAGE_SIZE;
+	if(len % PAGE_SIZE) {
+		total_map_pages += 1;
+	}
+	vaddr_t va_cur = 0;
+	for(int cur_page_index = 0; cur_page_index < total_map_pages; cur_page_index++) {
+		va_cur = va + cur_page_index * PAGE_SIZE;
+		for(int cur_level = 0; cur_level < 4; cur_level++) {
+			#ifdef PTE_DEBUG
+			ptp_debug[cur_level] = next_ptp;
+			#endif
+			ptp_type = get_next_ptp(next_ptp, cur_level, va_cur, &next_ptp, &pte, false);
+			if(ptp_type == -ENOMAPPING) {
+				break;
+			}
+		}
+		if(ptp_type != -ENOMAPPING) {
+			pte->pte = 0; // clear pte
+		}
+	}
+	flush_tlb();
 	// </lab2>
 	return 0;
 }

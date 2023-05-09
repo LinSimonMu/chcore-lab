@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 3.14)
 project(test_aarch64_page_table C)
 set(SOURCE_PATH ../../../kernel/mm)
 set(OBJECT_DIR ${CMAKE_BINARY_DIR}/CMakeFiles/test_aarch64_page_table.dir)
-set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -fprofile-arcs -ftest-coverage -g")
+set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -fprofile-arcs -ftest-coverage -g -O0")
 
 set(SOURCES
     test_aarch64_page_table.c
