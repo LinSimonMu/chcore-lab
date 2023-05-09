@@ -108,10 +108,10 @@ static struct page *split_page(struct phys_mem_pool *pool, u64 order,
         list_add(&((page + size)->node), &(pool->free_lists[high_order]));
         pool->free_lists[high_order].nr_free++;
         //set all page new order
-        int page_index = __get_page_index(pool, page + size);
-        for(int i = page_index; i < page_index + (1<<high_order); i++) {
+        int page_index = __get_page_index(pool, page);
+        for(int i = page_index; i < page_index + (1 << (high_order + 1)); i++) {
             (pool->page_metadata + i)->allocated = 0;
-            (pool->page_metadata + i)->order = order;
+            (pool->page_metadata + i)->order = high_order;
         }
         split_page = page;
     }
@@ -142,16 +142,9 @@ struct page *buddy_get_pages(struct phys_mem_pool *pool, u64 order)
         }
         page = list_entry(pool->free_lists[curr_order].free_list.next, struct page, node);
         list_del(&(page->node));
-        //set all page order
-        
-        page->allocated = 1;
         pool->free_lists[curr_order].nr_free--;
-        int page_index = __get_page_index(pool, page);
-        for(int i = page_index; i < page_index + (1<<order); i++) {
-            (pool->page_metadata + i)->allocated = 1;
-            (pool->page_metadata + i)->order = order;
-        }
         split_page(pool, order, page);
+        page->allocated = 1;
         return page;
     }
     return page;
