@@ -16,6 +16,7 @@
 
 #include "buddy.h"
 #include "slab.h"
+#include "page_table.h"
 
 extern unsigned long *img_end;
 
@@ -48,10 +49,52 @@ unsigned long get_ttbr1(void)
  * 2. fill the block entry with corresponding attribution bit
  *
  */
+#ifdef PTE_DEBUG
+extern ptp_t *ptp_debug[4];
+#endif
+#define BLOCK_SIZE_2MB_SHIFT	(21)
+#define BLOCK_SIZE_2MB			(1ULL << BLOCK_SIZE_2MB_SHIFT)
 void map_kernel_space(vaddr_t va, paddr_t pa, size_t len)
 {
 	// <lab2>
+	ptp_t *level_0_ptp = (ptp_t *)get_ttbr1();
+	ptp_t *next_ptp = level_0_ptp;
+	pte_t *pte = NULL;
+	int ptp_type = -1;
+	bool alloc_flag = true;
 
+	int total_map_blocks = len / BLOCK_SIZE_2MB;
+	if(len % BLOCK_SIZE_2MB) {
+		total_map_blocks += 1;
+	}
+	vaddr_t va_cur = 0;
+	paddr_t pa_cur = 0;
+	for(int cur_block_index = 0; cur_block_index < total_map_blocks; cur_block_index++) {
+		next_ptp = level_0_ptp;
+		va_cur = va + cur_block_index * BLOCK_SIZE_2MB;
+		pa_cur = pa + cur_block_index * BLOCK_SIZE_2MB;
+		for(int cur_level = 0; cur_level < 3; cur_level++) {
+			#ifdef PTE_DEBUG
+			ptp_debug[cur_level] = next_ptp;
+			#endif
+			if(cur_level == 2) {
+				alloc_flag = false;
+			}
+			ptp_type = get_next_ptp(next_ptp, cur_level, va_cur, &next_ptp, &pte, alloc_flag);
+		}
+		// block vaild
+		pte->l2_block.is_table = 0;
+		pte->l2_block.is_valid = 1;
+		// block attribute
+		pte->l2_block.UXN = 1;
+		pte->l2_block.AF = 1;
+		pte->l2_block.SH = 3;
+		pte->l2_block.attr_index = 4;
+		// block num
+		pte->l2_block.pfn = pa >> BLOCK_SIZE_2MB_SHIFT;
+	}
+
+	flush_tlb();
 	// </lab2>
 }
 
